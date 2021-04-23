@@ -15,7 +15,10 @@ function Navigation() {
             <Nav.Link href="/Projects" className="nav-text">
               Projects
             </Nav.Link>
-            <Nav.Link href="/Resume" className="nav-text">
+            <Nav.Link
+              href="https://drive.google.com/file/d/1MqK54gZvXfKduEWkajfdpFXkfLdnoI8X/view?usp=sharing"
+              className="nav-text"
+            >
               Resume
             </Nav.Link>
             <Nav.Link href="/About" className="nav-text">
