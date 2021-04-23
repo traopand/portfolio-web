@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import SplitPeas from "./components/SplitPeas";
+import Quicktab from "./components/Quicktab";
+import Rally from "./components/Rally";
+import Habbit from "./components/Habbit";
+import Error from "./components/Error";
+import Navigation from "./components/Navigation";
+
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <div>
+          <Navigation />
+          <Switch>
+            <Route path="/home" component={Home} exact />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/splitpeas" component={SplitPeas} />
+            <Route path="/quicktab" component={Quicktab} />
+            <Route path="/habbit" component={Habbit} />
+            <Route path="/rally" component={Rally} />
+            <Route component={Error} />
+          </Switch>
+        </div>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;

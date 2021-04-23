@@ -1,0 +1,14 @@
+.nav-text {
+  color: black !important;
+}
+
+.nav-text:hover {
+  text-decoration: underline;
+  text-decoration-color: #f5ded1;
+  text-decoration-thickness: 6px;
+}
+
+.nav-name {
+  color: black !important;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+.projects-header {
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 70pt;
+  font-family: "lato";
+  text-decoration: underline;
+  text-decoration-color: #f5ded1;
+  text-decoration-thickness: 10px;
+}
+
+.slogan {
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 70pt;
+}
+
+.div-projects {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+.img-top {
+  width: 80vw;
+  padding: 20px;
+}
