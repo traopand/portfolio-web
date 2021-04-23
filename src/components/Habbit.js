@@ -5,7 +5,7 @@ import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import Rectangle from "../images/rectangle.png";
 import Habbit from "../images/habbit.png";
-
+import ReactPlayer from "react-player";
 import "../styles/Habbit.css";
 
 function Projects() {
@@ -136,6 +136,21 @@ function Projects() {
           amount of money they receive from each chore.
         </li>
       </div>
+
+      <div className="subheading">Product Demo</div>
+      <Row style={{ justifyContent: "center" }}>
+        <ReactPlayer url="https://youtu.be/mNapPytyNfs" />
+      </Row>
+
+      <Row>
+        <a href="/quicktab" className="prev">
+          <Col>Previous Project</Col>
+        </a>
+        <Col xs={8}></Col>
+        <a href="/rally" className="next">
+          <Col>Next Project</Col>
+        </a>
+      </Row>
     </div>
   );
 }

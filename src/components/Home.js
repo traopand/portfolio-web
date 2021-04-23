@@ -8,14 +8,14 @@ import Devpost from "../images/devpost.png";
 import Github from "../images/github.png";
 import Typewriter from "typewriter-effect";
 import About from "./About";
-import Projects from "./Projects";
+import RecentProjects from "./RecentProjects";
 
 import "../styles/Home.css";
 function Home() {
   return (
     <div>
       <About />
-      <Projects />
+      <RecentProjects />
     </div>
   );
 }

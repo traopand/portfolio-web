@@ -17,7 +17,7 @@ import Quicktab from "../images/quicktab.png";
 function Projects() {
   return (
     <div className="div-projects">
-      <div className="projects-header">My Projects</div>
+      <div className="projects-header">Recent Projects</div>
       <Row style={{ justifyContent: "center" }}>
         <div className="grid">
           <div className="splitpeas">

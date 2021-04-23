@@ -24,6 +24,10 @@ function Navigation() {
             <Nav.Link href="/About" className="nav-text">
               About Me
             </Nav.Link>
+
+            {/* <Nav.Link href="/Fun" className="nav-text">
+              Fun!
+  </Nav.Link>*/}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

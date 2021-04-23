@@ -5,7 +5,7 @@ import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import Rectangle from "../images/rectangle.png";
 import Rally from "../images/rally.png";
-
+import ReactPlayer from "react-player";
 import "../styles/Rally.css";
 
 function Projects() {
@@ -110,6 +110,19 @@ function Projects() {
         user-friendly environment for both individuals and organizers to come
         together and make a change in their local or greater community.
       </div>
+
+      <div className="subheading">Product Demo</div>
+      <Row style={{ justifyContent: "center" }}>
+        <ReactPlayer url="https://youtu.be/eiIWh8It4XY" />
+      </Row>
+
+      <Row>
+        <a href="/habbit" className="prev">
+          <Col>Previous Project</Col>
+        </a>
+        <Col xs={8}></Col>
+        <a className="next-disabled"></a>
+      </Row>
     </div>
   );
 }

@@ -28,6 +28,16 @@ function Projects() {
       <Row style={{ justifyContent: "center" }}>
         <Image src={Quicktab} className="img-top"></Image>
       </Row>
+
+      <Row>
+        <a href="/splitpeas" className="prev">
+          <Col>Previous Project</Col>
+        </a>
+        <Col xs={8}></Col>
+        <a href="/habbit" className="next">
+          <Col>Next Project</Col>
+        </a>
+      </Row>
     </div>
   );
 }

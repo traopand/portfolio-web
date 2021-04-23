@@ -27,3 +27,74 @@
   width: 80vw;
   padding: 20px;
 }
+
+.prev {
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 70pt;
+  font-family: "lato";
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+
+.next {
+  text-align: right;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 70pt;
+  font-family: "lato";
+  text-decoration: none;
+  color: black;
+}
+
+.next-disabled {
+  text-align: right;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 70pt;
+  font-family: "lato";
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+.next:hover {
+  text-decoration: underline;
+  text-decoration-color: #f5ded1;
+  text-decoration-thickness: 10px;
+  color: black;
+}
+
+.prev:hover {
+  text-decoration: underline;
+  text-decoration-color: #f5ded1;
+  text-decoration-thickness: 10px;
+  color: black;
+}
+
+.Emma {
+  width: 80%;
+  padding: 20px;
+}
+
+.sp1 {
+  width: 80%;
+  padding: 20px;
+}
+.sp2 {
+  width: 60%;
+  padding: 20px;
+}
+.sp3 {
+  width: 60%;
+  padding: 20px;
+}
+.sp4 {
+  width: 60%;
+  padding: 20px;
+}
+.sp5 {
+  width: 80%;
+  padding: 20px;
+}
