@@ -19,20 +19,63 @@ function Projects() {
     <div className="div-projects">
       <div className="projects-header">Recent Projects</div>
       <Row style={{ justifyContent: "center" }}>
-        <a href="/splitpeas">
-          <Image src={Splitpeas} className="rectangle"></Image>
-        </a>
-        <a href="/quicktab">
-          <Image src={Quicktab} className="rectangle"></Image>
-        </a>
+        <div className="grid">
+          <div className="splitpeas">
+            <a href="/splitpeas">
+              <Image src={Splitpeas} className="img-splitpeas"></Image>
+            </a>
+            <div class="overlay-splitpeas">
+              <div class="text">
+                SplitPeas - A mobile application designed to help university
+                students save money, time and reduce food waste through group
+                grocery shopping.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid">
+          <div className="quicktab">
+            <a href="/quicktab">
+              <Image src={Quicktab} className="img-quicktab"></Image>
+            </a>
+            <div class="overlay-quicktab">
+              <div class="text">
+                Software Developer @ Quicktab - Development of landing page
+                redesign, restaurant web platform and QR code internal tool.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
       </Row>
       <Row style={{ justifyContent: "center" }}>
-        <a href="/habbit">
-          <Image src={Habbit} className="rectangle"></Image>
-        </a>
-        <a href="/rally">
-          <Image src={Rally} className="rectangle"></Image>
-        </a>
+        <div className="grid">
+          <div className="habbit">
+            <a href="/habbit">
+              <Image src={Habbit} className="img-habbit"></Image>
+            </a>
+            <div class="overlay-habbit">
+              <div class="text">
+                {" "}
+                Habbit - A mobile application aimed to educate young girls about
+                finance while managing their spending, earnings, and savings.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid">
+          <div className="rally">
+            <a href="/rally">
+              <Image src={Rally} className="img-rally"></Image>
+            </a>
+            <div class="overlay-rally">
+              <div class="text">
+                Rally - A mobile application developed to connect passionate
+                individuals and encourage safe and positive activism in the
+                community.
+              </div>
+            </div>
+          </div>
+        </div>
       </Row>
     </div>
   );

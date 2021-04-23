@@ -16,27 +16,140 @@
   padding-top: 10px;
 }
 
-.rectangle {
-  width: 40vw;
+.grid {
   padding: 20px;
 }
 
-.rectangle:hover {
-  opacity: 50%;
+.img-splitpeas {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.bounce:hover {
-  animation-name: bounce;
-  animation-timing-function: ease;
+.overlay-splitpeas {
+  position: absolute;
+  width: 90%;
+  height: 20%;
+  top: 70%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #abb6a0;
 }
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
+
+.splitpeas {
+  position: relative;
+  width: 40vw;
+}
+
+.splitpeas:hover .img-splitpeas {
+  opacity: 0.5;
+}
+
+.splitpeas:hover .overlay-splitpeas {
+  opacity: 1;
+}
+
+.img-quicktab {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-quicktab {
+  position: absolute;
+  width: 90%;
+  height: 20%;
+  top: 70%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #b1b0b9;
+}
+
+.quicktab {
+  position: relative;
+  width: 40vw;
+}
+
+.quicktab:hover .img-quicktab {
+  opacity: 0.5;
+}
+
+.quicktab:hover .overlay-quicktab {
+  opacity: 1;
+}
+
+.img-habbit {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-habbit {
+  position: absolute;
+  width: 90%;
+  height: 20%;
+  top: 70%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fbe79e;
+}
+
+.habbit {
+  position: relative;
+  width: 40vw;
+}
+
+.habbit:hover .img-habbit {
+  opacity: 0.4;
+}
+
+.habbit:hover .overlay-habbit {
+  opacity: 1;
+}
+
+.img-rally {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-rally {
+  position: absolute;
+  width: 90%;
+  height: 20%;
+  top: 70%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fbd9bd;
+}
+
+.rally {
+  position: relative;
+  width: 40vw;
+}
+
+.rally:hover .img-rally {
+  opacity: 0.5;
+}
+
+.rally:hover .overlay-rally {
+  opacity: 1;
+}
+
+.text {
+  padding: 10px;
+  font-size: 15px;
+  font-family: "lato";
 }

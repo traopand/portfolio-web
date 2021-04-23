@@ -17,6 +17,21 @@
   line-height: 70pt;
 }
 
+.subheading {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 70pt;
+  font-family: "lato";
+  text-decoration: underline;
+  text-decoration-color: #f5ded1;
+  text-decoration-thickness: 10px;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .div-projects {
   padding-left: 100px;
   padding-right: 100px;
