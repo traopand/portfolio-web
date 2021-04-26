@@ -14,3 +14,110 @@
   margin-left: 20px;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 1300px) {
+  .header {
+    font-size: 60px;
+    line-height: 60pt;
+  }
+  .header-name {
+    font-size: 60px;
+    line-height: 60pt;
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .header {
+    font-size: 40px;
+    line-height: 40pt;
+  }
+  .header-name {
+    font-size: 40px;
+    line-height: 40pt;
+  }
+
+  .image-tara2 {
+    margin-left: 30px;
+  }
+  .subtext {
+    font-size: 18px;
+  }
+
+  .icon {
+    width: 30px;
+  }
+  .icon-devpost {
+    height: 40px;
+    margin-top: -2px;
+  }
+
+  .row-icons {
+    margin-top: 20px;
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    font-size: 40px;
+    line-height: 40pt;
+  }
+  .header-name {
+    font-size: 40px;
+    line-height: 40pt;
+  }
+
+  .image-tara2 {
+    margin-left: 30px;
+    border-radius: 45px;
+  }
+  .subtext {
+    font-size: 18px;
+  }
+
+  .icon {
+    width: 30px;
+  }
+  .icon-devpost {
+    height: 40px;
+    margin-top: -2px;
+  }
+
+  .row-icons {
+    margin-top: 20px;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  .header {
+    font-size: 30px;
+    line-height: 30pt;
+  }
+  .header-name {
+    font-size: 30px;
+    line-height: 30pt;
+  }
+
+  .image-tara2 {
+    margin-left: 0px;
+    border-radius: 50px;
+    margin-right: 0px;
+  }
+  .subtext {
+    font-size: 15px;
+  }
+
+  .icon {
+    width: 20px;
+  }
+  .icon-devpost {
+    height: 25px;
+    margin-top: -2px;
+  }
+
+  .row-icons {
+    margin-top: 20px;
+    width: 40%;
+  }
+}

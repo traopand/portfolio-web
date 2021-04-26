@@ -29,9 +29,8 @@
 .overlay-splitpeas {
   position: absolute;
   width: 90%;
-  height: 20%;
-  top: 70%;
-  bottom: 5%;
+  height: fit-content;
+  bottom: 10%;
   left: 5%;
   right: 5%;
   opacity: 0;
@@ -61,9 +60,8 @@
 .overlay-quicktab {
   position: absolute;
   width: 90%;
-  height: 20%;
-  top: 70%;
-  bottom: 5%;
+  height: fit-content;
+  bottom: 10%;
   left: 5%;
   right: 5%;
   opacity: 0;
@@ -93,9 +91,8 @@
 .overlay-habbit {
   position: absolute;
   width: 90%;
-  height: 20%;
-  top: 70%;
-  bottom: 5%;
+  height: fit-content;
+  bottom: 10%;
   left: 5%;
   right: 5%;
   opacity: 0;
@@ -125,9 +122,8 @@
 .overlay-rally {
   position: absolute;
   width: 90%;
-  height: 20%;
-  top: 70%;
-  bottom: 5%;
+  height: fit-content;
+  bottom: 10%;
   left: 5%;
   right: 5%;
   opacity: 0;
@@ -152,4 +148,83 @@
   padding: 10px;
   font-size: 15px;
   font-family: "lato";
+}
+
+@media screen and (max-width: 1300px) {
+  .projects-header {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 70pt;
+    font-family: "lato";
+    text-decoration: underline;
+    text-decoration-color: #f5ded1;
+    text-decoration-thickness: 10px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .splitpeas {
+    width: 30vw;
+  }
+  .quicktab {
+    width: 30vw;
+  }
+  .habbit {
+    width: 30vw;
+  }
+  .rally {
+    width: 30vw;
+  }
+  .div-projects {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .splitpeas {
+    width: 30vw;
+  }
+  .quicktab {
+    width: 30vw;
+  }
+  .habbit {
+    width: 30vw;
+  }
+  .rally {
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .splitpeas {
+    width: 70vw;
+  }
+  .quicktab {
+    width: 70vw;
+  }
+  .habbit {
+    width: 70vw;
+  }
+  .rally {
+    width: 70vw;
+  }
+
+  .text {
+    font-size: 14px;
+    font-family: "lato";
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .projects-header {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  .projects-header {
+    font-size: 25px;
+  }
 }

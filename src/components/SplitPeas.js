@@ -18,7 +18,7 @@ function Projects() {
   return (
     <div className="div-projects">
       <Row>
-        <div className="projects-header">SplitPeas:</div>
+        <div className="projectheader">SplitPeas:</div>
         <div className="slogan">
           <Typewriter
             onInit={(typewriter) => {

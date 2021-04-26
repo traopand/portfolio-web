@@ -12,7 +12,7 @@ function Projects() {
   return (
     <div className="div-projects">
       <Row>
-        <div className="projects-header">Quicktab:</div>
+        <div className="projectheader">Quicktab:</div>
         <div className="slogan">
           <Typewriter
             onInit={(typewriter) => {

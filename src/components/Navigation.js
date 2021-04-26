@@ -6,7 +6,7 @@ function Navigation() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="#FFFFFF" variant="dark">
-        <Navbar.Brand href="/Home" className="nav-name">
+        <Navbar.Brand href="/" className="nav-name">
           Tara Rao-Pandit
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
