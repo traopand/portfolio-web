@@ -29,6 +29,13 @@ function Projects() {
         <Image src={Rally} className="img-top"></Image>
       </Row>
 
+      <div className="paragraph">
+        Rally is a mobile application that I developed alongside 3 Systems
+        Design Engineering students as a part of Hack The North 2021. We had 36
+        hours to develop our designs in figma and code our application. We used
+        Reach Native to code the application.
+      </div>
+
       <div className="subheading">Inspiration</div>
       <div className="paragraph">
         Looking back on 2020, we noticed that there was a huge shift towards
@@ -120,7 +127,7 @@ function Projects() {
         <a href="/habbit" className="prev">
           <Col>Previous Project</Col>
         </a>
-        <Col xs={8}></Col>
+
         <a className="next-disabled"></a>
       </Row>
     </div>

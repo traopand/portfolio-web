@@ -12,7 +12,7 @@ function Projects() {
   return (
     <div className="div-projects">
       <Row>
-        <div className="projects-header">Habbit:</div>
+        <div className="projectheader">Habbit:</div>
         <div className="slogan">
           <Typewriter
             onInit={(typewriter) => {
@@ -28,6 +28,13 @@ function Projects() {
       <Row style={{ justifyContent: "center" }}>
         <Image src={Habbit} className="img-top"></Image>
       </Row>
+
+      <div className="paragraph">
+        Habbit is a mobile application that I developed with 3 other university
+        students as a part of She Hacks 2021. We had 36 hours to come up with
+        our idea, design the prototype on figma and implement the code which we
+        did using React Native.
+      </div>
 
       <div className="subheading">Inspiration</div>
       <div className="paragraph">
@@ -146,7 +153,7 @@ function Projects() {
         <a href="/quicktab" className="prev">
           <Col>Previous Project</Col>
         </a>
-        <Col xs={8}></Col>
+
         <a href="/rally" className="next">
           <Col>Next Project</Col>
         </a>

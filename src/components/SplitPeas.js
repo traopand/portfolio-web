@@ -149,7 +149,7 @@ function Projects() {
         <a className="prev">
           <Col></Col>
         </a>
-        <Col xs={10}></Col>
+
         <a href="/quicktab" className="next">
           <Col>Next Project</Col>
         </a>

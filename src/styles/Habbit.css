@@ -30,6 +30,7 @@
 .paragraph {
   font-size: 20px;
   font-weight: 400;
+  color: black !important;
 }
 
 .div-projects {
