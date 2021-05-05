@@ -8,6 +8,7 @@ import Devpost from "../images/devpost.png";
 import Github from "../images/github.png";
 import Typewriter from "typewriter-effect";
 import "../styles/About.css";
+import MySkills from "./MySkills";
 
 function About() {
   return (
@@ -55,6 +56,8 @@ function About() {
           </div>
         </Col>
       </Row>
+
+      <MySkills />
     </div>
   );
 }

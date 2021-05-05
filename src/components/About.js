@@ -32,8 +32,8 @@ function About() {
           <div className="subtext">
             I'm a first-year Systems Design Engineering student at the
             University of Waterloo, I am currently looking for opportunities to
-            expand my skills and am interested in software, product management,
-            and UI/UX design.
+            expand my skills and am interested in software, web/app, and UI/UX
+            design.
             <Row className="row-icons">
               <Col>
                 <a href="https://www.linkedin.com/in/tara-rao-pandit/">
