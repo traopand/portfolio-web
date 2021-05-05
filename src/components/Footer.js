@@ -57,7 +57,10 @@ function Footer() {
               <Col>
                 <Nav.Link className="footer-head-disabled">Contact</Nav.Link>
 
-                <Nav.Link className="footer-text">
+                <Nav.Link
+                  className="footer-text"
+                  href="mailto: traopand@uwaterloo.ca"
+                >
                   traopand@uwaterloo.ca
                 </Nav.Link>
                 <Row className="contact-icons ">
