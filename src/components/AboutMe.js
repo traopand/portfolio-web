@@ -21,21 +21,25 @@ function About() {
           <div className="header"> About Me :) </div>
 
           <div className="subtext">
-            Hi! I’m Tara, a first year systems design engineering student at the
+            Hi! I’m Tara, a first-year systems design engineering student at the
             University of Waterloo. I’ve always been interested in the
             combination of logic and creativity to solve problems which is why I
             knew engineering would be the perfect fit for me!
             <br />
             <br />
-            I’m a self-motivated hard working individual with a passion for
-            learning. I am specifically interested in further exploring software
-            through web or mobile app development as well as the UI/UX design
-            process. In my free time I like to play piano and guitar, go on
-            walks and do hand lettering :)
+            I am a self-motivated and hardworking individual with a passion for
+            learning. I am specifically interested in exploring software through
+            web or mobile app development and the UI/UX design process. Outside
+            of work, I have a passion for music and love playing both piano and
+            guitar. I also enjoy playing tennis, crafting, and hiking! I made
+            this website to help showcase my projects and as a way to encourage
+            myself to continue developing and getting involved in new projects.
+            I coded this website from scratch using React JS and CSS.
             <br />
-            <br />I am always looking for opportunities to challenge myself and
-            further expand on my existing knowledge so feel free to reach out to
-            me at any time!
+            <br />I recently finished an internship as a software developer and
+            am looking for Fall 2021 internships. I am always looking for
+            opportunities to challenge myself and further expand on my existing
+            knowledge; feel free to reach out to me at any time!
             <Row className="row-icons">
               <Col>
                 <a href="https://www.linkedin.com/in/tara-rao-pandit/">

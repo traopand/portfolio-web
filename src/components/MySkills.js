@@ -25,8 +25,11 @@ function MySkills() {
                 Systems Design Engineering, University of Waterloo
               </div>
               <div className="activities">
+                Cumulative Academic Average > 90%
+              </div>
+              <div className="activities">
                 {" "}
-                Activities and Societies: Engineering Society Advertising
+                <u>Activities and Societies:</u> Engineering Society Advertising
                 Graphics Director, Engineering Society Mental Wellness Graphic
                 Designer, Engineers Without Borders (Advocacy Team)
               </div>
@@ -44,8 +47,8 @@ function MySkills() {
               </div>
               <div className="activities">
                 {" "}
-                Activities and Societies: President of WE Activists, Orientation
-                Leader, Competitive Dance, Piano, Senior Tennis Team
+                <u>Activities and Societies:</u> President of WE Activists,
+                Orientation Leader, Competitive Dance, Piano, Senior Tennis Team
               </div>
             </div>
           </Row>
