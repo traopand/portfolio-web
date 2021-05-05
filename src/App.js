@@ -11,6 +11,7 @@ import Rally from "./components/Rally";
 import Habbit from "./components/Habbit";
 import Error from "./components/Error";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
             <Route path="/rally" component={Rally} />
             <Route component={Error} />
           </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );
