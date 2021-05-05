@@ -39,17 +39,20 @@ function About() {
             <Row className="row-icons">
               <Col>
                 <a href="https://www.linkedin.com/in/tara-rao-pandit/">
-                  <Image className="icon" src={Linkedin}></Image>
+                  <Image className="icon contact-icon" src={Linkedin}></Image>
                 </a>
               </Col>
               <Col>
                 <a href="https://github.com/traopand">
-                  <Image className="icon" src={Github}></Image>
+                  <Image className="icon contact-icon" src={Github}></Image>
                 </a>
               </Col>
               <Col>
                 <a href="https://devpost.com/tararaopandit?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
-                  <Image className="icon-devpost" src={Devpost}></Image>
+                  <Image
+                    className="icon-devpost contact-icon"
+                    src={Devpost}
+                  ></Image>
                 </a>
               </Col>
             </Row>
