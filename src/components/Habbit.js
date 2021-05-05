@@ -150,13 +150,11 @@ function Projects() {
       </Row>
 
       <Row>
-        <a href="/quicktab" className="prev">
+        <a href="/rally" className="prev">
           <Col>Previous Project</Col>
         </a>
 
-        <a href="/rally" className="next">
-          <Col>Next Project</Col>
-        </a>
+        <a className="next-disabled"></a>
       </Row>
     </div>
   );

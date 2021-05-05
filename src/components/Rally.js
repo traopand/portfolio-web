@@ -124,11 +124,13 @@ function Projects() {
       </Row>
 
       <Row>
-        <a href="/habbit" className="prev">
+        <a href="/splitpeas" className="prev">
           <Col>Previous Project</Col>
         </a>
 
-        <a className="next-disabled"></a>
+        <a href="/habbit" className="next">
+          <Col>Next Project</Col>
+        </a>
       </Row>
     </div>
   );

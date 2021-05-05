@@ -140,11 +140,13 @@ function Projects() {
       </div>
 
       <Row>
-        <a href="/splitpeas" className="prev">
-          <Col>Previous Project</Col>
+        <a className="prev">
+          <Col style={{ visibility: "hidden", pointerEvents: "none" }}>
+            Previous Project
+          </Col>
         </a>
 
-        <a href="/habbit" className="next">
+        <a href="/splitpeas" className="next">
           <Col>Next Project</Col>
         </a>
       </Row>

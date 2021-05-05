@@ -20,6 +20,19 @@ function Projects() {
       <div className="projects-header">My Projects</div>
       <Row style={{ justifyContent: "center" }}>
         <div className="grid">
+          <div className="quicktab">
+            <a href="/quicktab">
+              <Image src={Quicktab} className="img-quicktab"></Image>
+            </a>
+            <div class="overlay-quicktab">
+              <div class="text">
+                Software Developer @ Quicktab - Development of landing page
+                redesign, restaurant web platform and QR code internal tool.{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid">
           <div className="splitpeas">
             <a href="/splitpeas">
               <Image src={Splitpeas} className="img-splitpeas"></Image>
@@ -33,35 +46,8 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="grid">
-          <div className="quicktab">
-            <a href="/quicktab">
-              <Image src={Quicktab} className="img-quicktab"></Image>
-            </a>
-            <div class="overlay-quicktab">
-              <div class="text">
-                Software Developer @ Quicktab - Development of landing page
-                redesign, restaurant web platform and QR code internal tool.{" "}
-              </div>
-            </div>
-          </div>
-        </div>
       </Row>
       <Row style={{ justifyContent: "center" }}>
-        <div className="grid">
-          <div className="habbit">
-            <a href="/habbit">
-              <Image src={Habbit} className="img-habbit"></Image>
-            </a>
-            <div class="overlay-habbit">
-              <div class="text">
-                {" "}
-                Habbit - A mobile application aimed to educate young girls about
-                finance while managing their spending, earnings, and savings.{" "}
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="grid">
           <div className="rally">
             <a href="/rally">
@@ -72,6 +58,20 @@ function Projects() {
                 Rally - A mobile application developed to connect passionate
                 individuals and encourage safe and positive activism in the
                 community.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid">
+          <div className="habbit">
+            <a href="/habbit">
+              <Image src={Habbit} className="img-habbit"></Image>
+            </a>
+            <div class="overlay-habbit">
+              <div class="text">
+                {" "}
+                Habbit - A mobile application aimed to educate young girls about
+                finance while managing their spending, earnings, and savings.{" "}
               </div>
             </div>
           </div>
