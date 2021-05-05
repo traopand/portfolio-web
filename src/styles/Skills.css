@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+
+.div-skills {
+  padding-bottom: 30px;
+}
+
 .img-skills {
   width: 80%;
   margin-left: -20%;
@@ -34,4 +39,25 @@
 
 .ed-group {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1345px) {
+  .img-skills {
+    width: 65%;
+  }
+
+  .ed-icon {
+    margin-left: -20%;
+  }
+}
+
+@media screen and (max-width: 1345px) {
+  .ed-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .img-skills {
+    margin-top: 10%;
+  }
 }

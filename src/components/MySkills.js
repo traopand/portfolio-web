@@ -7,7 +7,7 @@ import IB from "../images/ib.png";
 
 function MySkills() {
   return (
-    <div>
+    <div className="div-skills">
       <Row>
         <Col>
           <Row style={{ justifyContent: "center" }}>
@@ -15,9 +15,7 @@ function MySkills() {
           </Row>
         </Col>
         <Col>
-          <Row style={{ justifyContent: "center" }} className="ed-title">
-            Education
-          </Row>
+          <Row className="ed-title">Education</Row>
           <Row className="ed-group">
             <Image src={Waterloo} className="ed-icon" />
 
