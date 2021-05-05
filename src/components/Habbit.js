@@ -115,7 +115,7 @@ function Projects() {
         on a new platform through creating animations and graphics for our final
         product.
       </div>
-      <div className="subheading">What's next for Rally</div>
+      <div className="subheading">What's next for Habbit</div>
       <div className="paragraph">
         <li>
           Implement the option to have a parental supervisor on the youth’s
