@@ -27,14 +27,16 @@ function About() {
             knew engineering would be the perfect fit for me!
             <br />
             <br />
+            I made this website to help showcase my projects and as a way to
+            encourage myself to continue developing and getting involved in new
+            projects. I coded this website from scratch using React JS and CSS.
+            <br />
+            <br />
             I am a self-motivated and hardworking individual with a passion for
             learning. I am specifically interested in exploring software through
             web or mobile app development and the UI/UX design process. Outside
             of work, I have a passion for music and love playing both piano and
-            guitar. I also enjoy playing tennis, crafting, and hiking! I made
-            this website to help showcase my projects and as a way to encourage
-            myself to continue developing and getting involved in new projects.
-            I coded this website from scratch using React JS and CSS.
+            guitar. I also enjoy playing tennis, crafting, and hiking!
             <br />
             <br />I recently finished an internship as a software developer and
             am looking for Fall 2021 internships. I am always looking for

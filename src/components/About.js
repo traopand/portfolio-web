@@ -33,7 +33,7 @@ function About() {
             I am a first-year Systems Design Engineering student at The
             University of Waterloo. I am currently looking for Fall 2021
             internship opportunities to expand my skills and am interested in
-            software, web/app, and UI/UX design.
+            software, web/app development, and UI/UX design.
             <Row className="row-icons">
               <Col>
                 <a href="https://www.linkedin.com/in/tara-rao-pandit/">
