@@ -34,7 +34,16 @@ function Projects() {
       <Row style={{ justifyContent: "center" }}>
         <Image src={Splitpeas} className="img-top"></Image>
       </Row>
-
+      <br></br>
+      <div className="paragraph">
+        <b>Role(s):</b> Software Developer, UI/UX Designer, UI/UX Researcher,
+        Business Analyst
+        <br></br>
+        <b>Languages and Tools: </b>React Native, Javascript, Firebase, Figma
+        <br></br>
+        <b>Timeline: </b>January - March 2021
+      </div>
+      <br></br>
       <div className="paragraph">
         SplitPeas is a mobile application that I designed alongside four other
         UW students to help university students reduce stress around grocery
@@ -48,6 +57,8 @@ function Projects() {
         In our group I helped design the figma prototype, code the MVP as well
         as conducting user research.
       </div>
+
+      <br></br>
 
       <div className="subheading">User Persona</div>
 

@@ -28,7 +28,15 @@ function Projects() {
       <Row style={{ justifyContent: "center" }}>
         <Image src={Rally} className="img-top"></Image>
       </Row>
-
+      <br></br>
+      <div className="paragraph">
+        <b>Role(s):</b> Software Developer, UI/UX Designer
+        <br></br>
+        <b>Languages and Tools: </b>React Native, Javascript, Figma
+        <br></br>
+        <b>Timeline: </b>January 15-17 2021
+      </div>
+      <br></br>
       <div className="paragraph">
         Rally is a mobile application that I developed alongside 3 Systems
         Design Engineering students as a part of Hack The North 2021. We had 36

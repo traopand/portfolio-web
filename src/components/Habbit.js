@@ -28,7 +28,15 @@ function Projects() {
       <Row style={{ justifyContent: "center" }}>
         <Image src={Habbit} className="img-top"></Image>
       </Row>
-
+      <br></br>
+      <div className="paragraph">
+        <b>Role(s):</b> Software Developer, UI/UX Designer
+        <br></br>
+        <b>Languages and Tools: </b>React Native, Javascript, Figma
+        <br></br>
+        <b>Timeline: </b>January 8-10 2021
+      </div>
+      <br></br>
       <div className="paragraph">
         Habbit is a mobile application that I developed with 3 other university
         students as a part of She Hacks 2021. We had 36 hours to come up with

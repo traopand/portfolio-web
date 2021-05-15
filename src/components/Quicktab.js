@@ -36,6 +36,15 @@ function Projects() {
         <Image src={Quicktab} className="img-top"></Image>
       </Row>
       <br></br>
+      <div className="paragraph">
+        <b>Role(s):</b> Full-Stack Software Developer
+        <br></br>
+        <b>Languages and Tools: </b>React JS, Javascript, Firebase, HTML/CSS,
+        Adobe XD
+        <br></br>
+        <b>Timeline: </b>January-April 2021
+      </div>
+      <br></br>
 
       <div className="paragraph">
         From January to April 2021 I completed an internship at Quicktab, a
