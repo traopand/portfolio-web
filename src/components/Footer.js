@@ -38,11 +38,11 @@ function Footer() {
                   <Nav.Link href="/Splitpeas" className="footer-text">
                     SplitPeas
                   </Nav.Link>
-                  <Nav.Link href="/Habbit" className="footer-text">
-                    Habbit
-                  </Nav.Link>
                   <Nav.Link href="/Rally" className="footer-text">
                     Rally
+                  </Nav.Link>
+                  <Nav.Link href="/Habbit" className="footer-text">
+                    Habbit
                   </Nav.Link>
                 </Col>
                 <Nav.Link
