@@ -5,7 +5,7 @@ import "../styles/Navigation.css";
 function Navigation() {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="#FFFFFF" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="#FFFFFF" variant="light">
         <Navbar.Brand href="/" className="nav-name">
           Tara Rao-Pandit
         </Navbar.Brand>
@@ -18,6 +18,7 @@ function Navigation() {
             <Nav.Link
               href="https://drive.google.com/file/d/1MqK54gZvXfKduEWkajfdpFXkfLdnoI8X/view?usp=sharing"
               className="nav-text"
+              target="_blank"
             >
               Resume
             </Nav.Link>

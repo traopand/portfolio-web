@@ -73,7 +73,11 @@ function Projects() {
         images below, I coded the header, For Restaurants, For Guests, About
         Quicktab, and FAQ pages. In addition, I implemented a blog feature to
         allow the company to post updates and new releases. View the website
-        <a href="https://quicktab.ca/" style={{ color: "black" }}>
+        <a
+          href="https://quicktab.ca/"
+          style={{ color: "black" }}
+          target="_blank"
+        >
           {" "}
           <u> here</u>.
         </a>

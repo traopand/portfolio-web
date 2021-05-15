@@ -57,3 +57,50 @@
   padding-right: 30px !important;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 996px) {
+  .footer-text {
+    color: #6d6b6b !important;
+    line-height: 10px;
+  }
+
+  .footer-text:hover {
+    color: #6d6b6b !important;
+    line-height: 10px;
+    opacity: 50%;
+  }
+
+  .footer-text-disabled {
+    color: #6d6b6b !important;
+    pointer-events: none;
+  }
+
+  .footer-head-disabled {
+    color: #6d6b6b !important;
+    pointer-events: none;
+    font-weight: bold;
+  }
+
+  .contact-icon:hover {
+    opacity: 50%;
+  }
+
+  .linkedin-icon {
+    width: 50px !important;
+    padding-right: 10px;
+  }
+  .github-icon {
+    width: 50px !important;
+    padding-right: 10px;
+  }
+  .devpost-icon {
+    width: 50px !important;
+    margin-top: -3px;
+  }
+
+  .contact-icons {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-top: 10px;
+  }
+}

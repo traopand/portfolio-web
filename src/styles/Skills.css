@@ -62,3 +62,198 @@
     margin-top: 10%;
   }
 }
+
+@media screen and (max-width: 1036px) {
+  .img-skills {
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 500px;
+  }
+
+  .col-ed {
+    margin-top: 500px;
+    margin-left: -40%;
+  }
+  .ed-title {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .img-skills {
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 400px;
+  }
+
+  .col-ed {
+    margin-top: 500px;
+    margin-left: -40%;
+  }
+  .ed-title {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .img-skills {
+    margin-top: 10%;
+    margin-left: 47%;
+    padding: 0px;
+  }
+
+  .col-ed {
+    margin-top: 500px;
+    margin-left: -55%;
+  }
+  .ed-title {
+    margin-left: 15%;
+    margin-top: -100px;
+  }
+  .ed-icon {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .img-skills {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 300px;
+    padding: 0px;
+  }
+
+  .col-ed {
+    margin-top: 0px;
+    margin-left: 0%;
+  }
+  .ed-title {
+    margin-left: 30%;
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .ed-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+  }
+  .school {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15%;
+  }
+  .activities {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .img-skills {
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 300px;
+    padding: 0px;
+  }
+
+  .col-ed {
+    margin-top: 500px;
+    margin-left: -40%;
+  }
+  .ed-title {
+    margin-left: 15%;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .img-skills {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 300px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .img-skills {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 300px;
+    padding: 0px;
+  }
+
+  .col-ed {
+    margin-top: 0px;
+    margin-left: 0%;
+  }
+  .ed-title {
+    margin-left: 36%;
+    font-size: 25px;
+  }
+  .ed-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+  }
+  .school {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15%;
+  }
+  .activities {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .img-skills {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 300px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .img-skills {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 300px;
+    padding: 0px;
+  }
+
+  .col-ed {
+    margin-top: 0px;
+    margin-left: 0%;
+  }
+  .ed-title {
+    margin-left: 30%;
+    font-size: 25px;
+  }
+  .ed-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+  }
+  .school {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15%;
+  }
+  .activities {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .img-skills {
+    width: 250px;
+    margin-left: 30px;
+  }
+}

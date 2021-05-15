@@ -14,7 +14,7 @@ function MySkills() {
             <Image src={skills} className="img-skills"></Image>
           </Row>
         </Col>
-        <Col>
+        <Col className="col-ed">
           <Row className="ed-title">Education</Row>
           <Row className="ed-group">
             <Image src={Waterloo} className="ed-icon" />

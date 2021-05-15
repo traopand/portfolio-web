@@ -36,17 +36,23 @@ function About() {
             software, web/app development, and UI/UX design.
             <Row className="row-icons">
               <Col>
-                <a href="https://www.linkedin.com/in/tara-rao-pandit/">
+                <a
+                  href="https://www.linkedin.com/in/tara-rao-pandit/"
+                  target="_blank"
+                >
                   <Image className="icon contact-icon" src={Linkedin}></Image>
                 </a>
               </Col>
               <Col>
-                <a href="https://github.com/traopand">
+                <a href="https://github.com/traopand" target="_blank">
                   <Image className="icon contact-icon" src={Github}></Image>
                 </a>
               </Col>
               <Col>
-                <a href="https://devpost.com/tararaopandit?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
+                <a
+                  href="https://devpost.com/tararaopandit?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+                  target="_blank"
+                >
                   <Image
                     className="icon-devpost contact-icon"
                     src={Devpost}

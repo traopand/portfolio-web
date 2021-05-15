@@ -28,10 +28,14 @@
 
 @media screen and (max-width: 950px) {
   .slogan {
-    font-size: 30px !important;
+    font-size: 26px !important;
+    overflow-wrap: normal !important;
+    line-height: 30pt !important;
   }
   .projectheader {
-    font-size: 35px !important;
+    font-size: 32px !important;
+    margin-bottom: 5px !important;
+    line-height: 40px !important;
   }
 }
 
@@ -134,4 +138,123 @@
 .sp5 {
   width: 80%;
   padding: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .next {
+    font-size: 20px;
+  }
+  .prev {
+    font-size: 20px;
+    margin-right: 55%;
+  }
+}
+
+@media screen and (max-width: 883px) {
+  .prev {
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 813px) {
+  .prev {
+    margin-right: 50%;
+  }
+  .div-projects {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .prev {
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  .next {
+    font-size: 16px;
+  }
+  .prev {
+    font-size: 16px;
+    margin-right: 56%;
+  }
+
+  .slogan {
+    font-size: 20px !important;
+  }
+  .projectheader {
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .prev {
+    margin-right: 50%;
+  }
+}
+
+@media screen and (max-width: 609px) {
+  .prev {
+    margin-right: 45%;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .prev {
+    margin-right: 40%;
+  }
+}
+
+@media screen and (max-width: 519px) {
+  .next {
+    font-size: 14px;
+  }
+  .prev {
+    font-size: 14px;
+    margin-right: 42%;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .prev {
+    margin-right: 38%;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .prev {
+    margin-right: 30%;
+  }
+}
+
+@media screen and (max-width: 417px) {
+  .prev {
+    margin-right: 27%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .prev {
+    margin-right: 22%;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .prev {
+    margin-right: 19%;
+  }
+}
+
+@media screen and (max-width: 373px) {
+  .prev {
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .prev {
+    margin-right: 0%;
+  }
 }

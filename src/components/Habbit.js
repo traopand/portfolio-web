@@ -154,7 +154,9 @@ function Projects() {
           <Col>Previous Project</Col>
         </a>
 
-        <a className="next-disabled"></a>
+        <a href="/quicktab" className="next">
+          <Col>Next Project</Col>
+        </a>
       </Row>
     </div>
   );

@@ -43,3 +43,18 @@
   width: 80vw;
   padding: 20px;
 }
+
+@media screen and (max-width: 850px) {
+  .projectheader {
+    font-size: 30px !important;
+  }
+  .slogan {
+    font-size: 30px !important;
+  }
+  .paragraph {
+    font-size: 15px !important;
+  }
+  .subheading {
+    font-size: 20px;
+  }
+}

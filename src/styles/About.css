@@ -110,10 +110,26 @@
   }
 }
 
-@media screen and (max-width: 789px) {
+@media screen and (max-width: 910px) {
+  .image-tara2 {
+    justify-content: center;
+    height: 250px;
+    position: relative;
+  }
+
+  .row-icons {
+    margin-top: 20px;
+    text-align: center;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .header {
     font-size: 30px;
     line-height: 30pt;
+    text-align: center;
+    margin-top: 15px;
   }
   .header-name {
     font-size: 30px;
@@ -121,9 +137,8 @@
   }
 
   .image-tara2 {
-    margin-left: 0px;
+    margin-left: 50%;
     border-radius: 50px;
-    margin-right: 0px;
   }
   .subtext {
     font-size: 15px;
@@ -139,6 +154,61 @@
 
   .row-icons {
     margin-top: 20px;
+    text-align: center;
     width: 40%;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .row-icons {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .image-tara2 {
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .row-icons {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .image-tara2 {
+    height: 150px !important;
+    margin-left: 115px;
+  }
+
+  @media screen and (max-width: 375px) {
+    .image-tara2 {
+      height: 100px !important;
+      margin-left: 112px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .image-tara2 {
+      height: 100px !important;
+      margin-left: 110px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .image-tara2 {
+      height: 100px !important;
+      margin-left: 85px;
+    }
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .image-tara2 {
+    margin-left: 55%;
   }
 }
