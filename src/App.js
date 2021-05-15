@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import { Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 
 import Home from "./components/Home";
@@ -30,6 +32,9 @@ class App extends Component {
             <Route component={Error} />
           </Switch>
           <Footer />
+          <Row className="coded-by2">
+            Coded by Tara Rao-Pandit using React JS {`:)`}
+          </Row>
         </div>
       </BrowserRouter>
     );
