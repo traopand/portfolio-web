@@ -152,9 +152,9 @@ function Projects() {
         After conducting our user and competitive research we had a strong idea
         of what features we wanted to include such as group list creation, bill
         splitting, food expiry tracking, local grocery store coupons and
-        recipes. Below are sample designs that I made on figma for our dashboard
-        experimenting with color schemes to what was the easiest to read and
-        navigate through.
+        recipes. Below are sample designs that I made on figma for our
+        dashboard, experimenting with color schemes to understand what was the
+        easiest to read and navigate through.
       </div>
 
       <Row style={{ justifyContent: "center" }}>
