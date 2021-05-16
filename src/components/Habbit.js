@@ -33,10 +33,10 @@ function Projects() {
         <b className="summary-habbit">Role(s):</b> Software Developer, UI/UX
         Designer
         <br></br>
-        <b className="summary-habbit">Languages and Tools: </b>React Native,
+        <b className="summary-habbit">Languages and Tools:</b> React Native,
         Javascript, Figma
         <br></br>
-        <b className="summary-habbit">Timeline: </b>January 8-10 2021
+        <b className="summary-habbit">Timeline:</b> January 8-10 2021
         <br></br>
         <a
           href="https://github.com/traopand/habbit-finance-app"
