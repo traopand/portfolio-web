@@ -30,11 +30,21 @@ function Projects() {
       </Row>
       <br></br>
       <div className="paragraph">
-        <b>Role(s):</b> Software Developer, UI/UX Designer
+        <b className="summary-rally">Role(s):</b> Software Developer, UI/UX
+        Designer
         <br></br>
-        <b>Languages and Tools: </b>React Native, Javascript, Figma
+        <b className="summary-rally">Languages and Tools:</b> React Native,
+        Javascript, Figma
         <br></br>
-        <b>Timeline: </b>January 15-17 2021
+        <b className="summary-rally">Timeline:</b> January 15-17 2021
+        <br></br>
+        <a
+          href="https://github.com/traopand/rally"
+          className="git-rally"
+          target="_blank"
+        >
+          <b className="summary-rally">Github Repo 🔗</b>
+        </a>
       </div>
       <br></br>
       <div className="paragraph">

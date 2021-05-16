@@ -44,6 +44,15 @@
   padding: 20px;
 }
 
+.summary-habbit {
+  background-color: #fcefc2;
+  color: black;
+}
+
+.git-habbit:hover {
+  text-decoration-color: #fcaf3f;
+}
+
 @media screen and (max-width: 850px) {
   .projectheader {
     font-size: 30px !important;

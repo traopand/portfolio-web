@@ -17,6 +17,10 @@
   line-height: 70pt;
 }
 
+.summary-quicktab {
+  background-color: #d7cfe4;
+}
+
 .div-projects {
   padding-left: 100px;
   padding-right: 100px;

@@ -36,12 +36,21 @@ function Projects() {
       </Row>
       <br></br>
       <div className="paragraph">
-        <b>Role(s):</b> Software Developer, UI/UX Designer, UI/UX Researcher,
-        Business Analyst
+        <b className="summary-splitpeas">Role(s):</b> Software Developer, UI/UX
+        Designer, UI/UX Researcher, Product Manager
         <br></br>
-        <b>Languages and Tools: </b>React Native, Javascript, Firebase, Figma
+        <b className="summary-splitpeas">Languages and Tools:</b> React Native,
+        Javascript, Firebase, Figma
         <br></br>
-        <b>Timeline: </b>January - March 2021
+        <b className="summary-splitpeas">Timeline:</b> January - March 2021
+        <br></br>
+        <a
+          href="https://github.com/traopand/split-peas"
+          className="git-splitpeas"
+          target="_blank"
+        >
+          <b className="summary-splitpeas">Github Repo 🔗</b>
+        </a>
       </div>
       <br></br>
       <div className="paragraph">

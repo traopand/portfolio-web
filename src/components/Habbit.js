@@ -30,11 +30,21 @@ function Projects() {
       </Row>
       <br></br>
       <div className="paragraph">
-        <b>Role(s):</b> Software Developer, UI/UX Designer
+        <b className="summary-habbit">Role(s):</b> Software Developer, UI/UX
+        Designer
         <br></br>
-        <b>Languages and Tools: </b>React Native, Javascript, Figma
+        <b className="summary-habbit">Languages and Tools: </b>React Native,
+        Javascript, Figma
         <br></br>
-        <b>Timeline: </b>January 8-10 2021
+        <b className="summary-habbit">Timeline: </b>January 8-10 2021
+        <br></br>
+        <a
+          href="https://github.com/traopand/habbit-finance-app"
+          target="_blank"
+          className="git-habbit"
+        >
+          <b className="summary-habbit">Github Repo 🔗</b>
+        </a>
       </div>
       <br></br>
       <div className="paragraph">

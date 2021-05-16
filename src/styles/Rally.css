@@ -33,6 +33,15 @@
   line-height: 70pt;
 }
 
+.summary-rally {
+  background-color: #fbd9bd;
+  color: black;
+}
+
+.git-rally:hover {
+  text-decoration-color: #f96c4b;
+}
+
 .div-projects {
   padding-left: 100px;
   padding-right: 100px;

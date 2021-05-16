@@ -17,6 +17,15 @@
   line-height: 70pt;
 }
 
+.summary-splitpeas {
+  background-color: #e4eed8;
+  color: black;
+}
+
+.git-splitpeas:hover {
+  text-decoration-color: #abb6a0;
+}
+
 @media screen and (max-width: 1200px) {
   .slogan {
     font-size: 35px !important;

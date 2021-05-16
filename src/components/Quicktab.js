@@ -37,12 +37,13 @@ function Projects() {
       </Row>
       <br></br>
       <div className="paragraph">
-        <b>Role(s):</b> Full-Stack Software Developer
+        <b className="summary-quicktab">Role(s):</b> Full-Stack Software
+        Developer
         <br></br>
-        <b>Languages and Tools: </b>React JS, Javascript, Firebase, HTML/CSS,
-        Adobe XD
+        <b className="summary-quicktab">Languages and Tools:</b> React JS,
+        Javascript, Firebase, HTML/CSS, Adobe XD
         <br></br>
-        <b>Timeline: </b>January-April 2021
+        <b className="summary-quicktab">Timeline:</b> January-April 2021
       </div>
       <br></br>
 
