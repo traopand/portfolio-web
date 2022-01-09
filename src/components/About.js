@@ -41,7 +41,7 @@ function About() {
             technology .
             <br />
             <br />
-            I'm currently lookin for
+            I'm currently looking for
             <span style={{ color: "#E86A67", fontWeight: "bold" }}>
               {" "}
               Summer 2022
