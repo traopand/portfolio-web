@@ -160,11 +160,11 @@ function Projects() {
         <ReactPlayer url="https://youtu.be/iNpdGW3Cfpg" />
       </Row>
       <Row>
-        <a href="/splitpeas" className="prev">
+        <a href="/shinydocs" className="prev">
           <Col>Previous Project</Col>
         </a>
 
-        <a href="/habbit" className="next">
+        <a href="/quicktab" className="next">
           <Col>Next Project</Col>
         </a>
       </Row>

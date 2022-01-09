@@ -14,7 +14,7 @@ import Rally from "./components/Rally";
 import Habbit from "./components/Habbit";
 import Tunely from "./components/Tunely";
 import Shinydocs from "./components/Shinydocs";
-import Error from "./components/Error";
+//import Error from "./components/Error";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
@@ -34,7 +34,7 @@ class App extends Component {
             <Route path="/habbit" component={Habbit} />
             <Route path="/rally" component={Rally} />
             <Route path="/shinydocs" component={Shinydocs} />
-            <Route component={Error} />
+            {/*<Route component={Error} />*/}
           </Switch>
           <Footer />
           <Row className="coded-by2">

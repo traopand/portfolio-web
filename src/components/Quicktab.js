@@ -187,10 +187,8 @@ function Projects() {
       </div>
 
       <Row>
-        <a className="prev">
-          <Col style={{ visibility: "hidden", pointerEvents: "none" }}>
-            Previous Project
-          </Col>
+        <a href="/tunely" className="prev">
+          <Col>Previous Project</Col>
         </a>
 
         <a href="/splitpeas" className="next">

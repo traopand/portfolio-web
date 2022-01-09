@@ -7,6 +7,9 @@ import Linkedin from "../images/linkedin.png";
 import Devpost from "../images/devpost.png";
 import Github from "../images/github.png";
 import Typewriter from "typewriter-effect";
+import Concert from "../images/concert.jpg";
+import Piano from "../images/piano.png";
+import Dance from "../images/dance.png";
 import "../styles/About.css";
 import MySkills from "./MySkills";
 
@@ -22,8 +25,8 @@ function About() {
       >
         <Col xs={12} md={8}>
           <div className="subtext">
-            Hi! I’m Tara, a first-year systems design engineering student at the
-            University of Waterloo. I’ve always been interested in the
+            Hi! I’m Tara, a second-year systems design engineering student at
+            the University of Waterloo. I’ve always been interested in the
             combination of logic and creativity to solve problems which is why I
             knew engineering would be the perfect fit for me!
             <br />
@@ -35,44 +38,35 @@ function About() {
             <br />
             I am a self-motivated and hardworking individual with a passion for
             learning. I am specifically interested in exploring software through
-            web or mobile app development and the UI/UX design process. Outside
-            of work, I have a passion for music and love playing both piano and
-            guitar. I also enjoy playing tennis, crafting, and hiking!
+            web or mobile app development and the UI/UX design process that goes
+            into development.
             <br />
-            <br />I recently finished an internship as a software developer and
-            am looking for Fall 2021 internships. I am always looking for
-            opportunities to challenge myself and further expand on my existing
-            knowledge; feel free to reach out to me at any time!
-            <Row className="row-icons">
-              <Col>
-                <a
-                  href="https://www.linkedin.com/in/tara-rao-pandit/"
-                  target="_blank"
-                >
-                  <Image className="icon contact-icon" src={Linkedin}></Image>
-                </a>
-              </Col>
-              <Col>
-                <a href="https://github.com/traopand" target="_blank">
-                  <Image className="icon contact-icon" src={Github}></Image>
-                </a>
-              </Col>
-              <Col>
-                <a
-                  href="https://devpost.com/tararaopandit?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
-                  target="_blank"
-                >
-                  <Image
-                    className="icon-devpost contact-icon"
-                    src={Devpost}
-                  ></Image>
-                </a>
-              </Col>
+            <br />I recently finished an internship as a software developer at
+            Shinydocs and am looking for Summer 2022 internships. I am always
+            looking for opportunities to challenge myself and further expand on
+            my existing knowledge; feel free to reach out to me at any time!
+            <br />
+            <br />
+            Outside, of school and work, I love doing anything creative and
+            music related! I play guitar and piano, love to dance and enjoy
+            going to concerts!
+            <Row style={{ padding: 20, justifyContent: "center" }}>
+              <img
+                src={Dance}
+                style={{ width: "300px", height: "auto", padding: 10 }}
+              />
+              <img
+                src={Piano}
+                style={{ width: "300px", height: "auto", padding: 10 }}
+              />
+              <img
+                src={Concert}
+                style={{ width: "300px", height: "auto", padding: 10 }}
+              />
             </Row>
           </div>
         </Col>
       </Row>
-
       <MySkills />
     </div>
   );

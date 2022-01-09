@@ -5,6 +5,7 @@ import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import Rectangle from "../images/rectangle.png";
 import Shinydocs from "../images/shinydocsBanner.png";
+import Treeview from "../images/Treeview.png";
 import ReactPlayer from "react-player";
 import "../styles/Tunely.css";
 
@@ -55,6 +56,16 @@ function Projects() {
         Typescript.
       </div>
       <div className="subheading">The Treeview</div>
+      <div className="paragraph">
+        {" "}
+        Among all of the components I worked on, I'm most proud of the treeview
+        as it not only challenged my technological abilities but gave me the
+        opportunity to apply theoretical concepts such as DFS to a real-life use
+        case. It's a UI component that visually displays nested arrays in an
+        organized and intuitive manner with accessible integration for an easy
+        user experience.
+      </div>
+      <img className="img-top" src={Treeview} />
 
       <div className="paragraph">Key Features</div>
       <div className="paragraph">
@@ -78,17 +89,15 @@ function Projects() {
           </li>
         </ul>
         <br />
-        Among all of the components I worked on, I was most proud of the
-        treeview as it not only challenged my technological abilities but gave
-        me the opportunity to apply theoretical concepts such as DFS to a
-        real-life use case.
       </div>
       <Row>
-        <a href="/splitpeas" className="prev">
-          <Col>Previous Project</Col>
+        <a className="prev">
+          <Col style={{ visibility: "hidden", pointerEvents: "none" }}>
+            Previous Project
+          </Col>
         </a>
 
-        <a href="/habbit" className="next">
+        <a href="/tunely" className="next">
           <Col>Next Project</Col>
         </a>
       </Row>

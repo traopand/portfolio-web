@@ -25,9 +25,6 @@ function MySkills() {
                 Systems Design Engineering, University of Waterloo
               </div>
               <div className="activities">
-                Cumulative Academic Average {">"} 90%
-              </div>
-              <div className="activities">
                 {" "}
                 <u>Activities and Societies:</u> Engineering Society Advertising
                 Graphics Director, Engineering Society Mental Wellness Graphic
