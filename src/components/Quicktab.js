@@ -37,41 +37,74 @@ function Projects() {
       </Row>
       <br></br>
       <div className="paragraph">
-        <b className="summary-quicktab">Role(s):</b> Full-Stack Software
+        <b className="summary-quicktab">💼 Role(s):</b> Full-Stack Software
         Developer
         <br></br>
-        <b className="summary-quicktab">Languages and Tools:</b> React JS,
+        <b className="summary-quicktab">🛠️ Languages and Tools:</b> React JS,
         Javascript, Firebase, HTML/CSS, Adobe XD
         <br></br>
-        <b className="summary-quicktab">Timeline:</b> January-April 2021
+        <b className="summary-quicktab">🗓️ Timeline:</b> January-April 2021
       </div>
       <br></br>
 
       <div className="paragraph">
-        From January to April 2021 I completed an internship at Quicktab, a
-        start-up company developing an application that allows restaurants to
-        facilitate contactless dining. Users can virtually join a table once
-        seated in the restaurant and order items from their own or
-        restaurant-provided devices using the application. They have also
-        developed a restaurant side for the platform that allows servers to see
-        what tables have ordered and send these orders to the kitchen as well as
-        view billing information. My main projects included working on coding
-        the redesign for my company’s website and further developing their
-        restaurant platform. I worked with react, CSS, javascript, and firebase.
+        From January to April 2021 I completed an{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          internship{" "}
+        </span>{" "}
+        at{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>Quicktab</span>,
+        a start-up company developing an application that allows restaurants to
+        facilitate{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          contactless dining
+        </span>
+        . Users can virtually join a table once seated in the restaurant and
+        order items from their own or restaurant-provided devices using the
+        application. They have also developed a restaurant side for the platform
+        that allows servers to see what tables have ordered and send these
+        orders to the kitchen as well as view billing information. My main
+        projects included working on coding the{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>redesign </span>{" "}
+        for my company’s website and further developing their restaurant
+        platform. I worked with react, CSS, javascript, and firebase.
       </div>
 
       <br></br>
 
       <div className="subheading">Challenges I faced </div>
       <div className="paragraph">
-        Given that I had no prior experience working with React, Javascript, or
-        Firebase before starting my work term it was a huge challenge for me to
-        develop these skills while implementing them in my tasks. However, I was
-        able to demonstrate strong self-management and technical agility as I
-        picked up the required skills and was able to successfully complete my
-        projects on time. Additionally, with the work term being remote I had to
-        become more resourceful and independent in solving my technical
-        problems.
+        Given that I had{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          no prior experience{" "}
+        </span>{" "}
+        working with{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>React</span>,{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>Javascript</span>
+        , or{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>Firebase </span>{" "}
+        before starting my work term it was a huge challenge for me to develop
+        these skills while implementing them in my tasks. However, I was able to
+        demonstrate strong{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          self-management{" "}
+        </span>{" "}
+        and{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          technical agility{" "}
+        </span>{" "}
+        as I picked up the required skills and was able to successfully complete
+        my projects on time. Additionally, with the work term being{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>remote </span> I
+        had to become more{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          resourceful{" "}
+        </span>{" "}
+        and{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          independent{" "}
+        </span>{" "}
+        in solving my technical problems.
       </div>
 
       <br></br>

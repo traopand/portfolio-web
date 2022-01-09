@@ -7,7 +7,7 @@ function Navigation() {
     <div>
       <Navbar collapseOnSelect expand="lg" bg="#FFFFFF" variant="light">
         <Navbar.Brand href="/" className="nav-name">
-          Tara Rao-Pandit
+          Tara Rao-Pandit 🪐
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

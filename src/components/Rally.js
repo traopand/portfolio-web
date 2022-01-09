@@ -5,6 +5,7 @@ import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import Rectangle from "../images/rectangle.png";
 import Rally from "../images/rally.png";
+import Wireframe from "../images/rallyWireframe.png";
 import ReactPlayer from "react-player";
 import "../styles/Rally.css";
 
@@ -30,13 +31,17 @@ function Projects() {
       </Row>
       <br></br>
       <div className="paragraph">
-        <b className="summary-rally">Role(s):</b> Software Developer, UI/UX
+        <b className="summary-rally">💼 Role(s):</b> Software Developer, UI/UX
         Designer
         <br></br>
-        <b className="summary-rally">Languages and Tools:</b> React Native,
+        <b className="summary-rally">🛠️ Languages and Tools:</b> React Native,
         Javascript, Figma
         <br></br>
-        <b className="summary-rally">Timeline:</b> January 15-17 2021
+        <b className="summary-rally">🗓️ Timeline:</b> January 15-17 2021
+        <br></br>
+        <b className="summary-quicktab">👥 Team:</b> Christine Ng, Christopher
+        Oka, Ian Schulte, and Tara Rao-Pandit
+        <br></br>
         <br></br>
         <a
           href="https://github.com/traopand/rally"
@@ -48,38 +53,79 @@ function Projects() {
       </div>
       <br></br>
       <div className="paragraph">
-        Rally is a mobile application that I developed alongside 3 Systems
-        Design Engineering students as a part of Hack The North 2021. We had 36
-        hours to develop our designs in figma and code our application. We used
-        Reach Native to code the application.
+        Rally is a{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          mobile application{" "}
+        </span>{" "}
+        that I developed alongside 3 Systems Design Engineering students as a
+        part of Hack The North 2021. We had 36 hours to develop our designs in
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          {" "}
+          Figma{" "}
+        </span>{" "}
+        and code our application. We used{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          React Native{" "}
+        </span>
+        to code the application.
       </div>
 
       <div className="subheading">Inspiration</div>
       <div className="paragraph">
-        Looking back on 2020, we noticed that there was a huge shift towards
-        speaking out and demanding change. We wanted to create a platform that
-        would both connect passionate users with movements related to their
-        beliefs as well as allow organizers to set-up their own events and reach
-        attendees. The app aims to encourage individuals to speak out about what
-        they believe in and bring together communities with a common goal in
-        mind. We also wanted to inform protestors about key information as well
-        as incorporate customization so that users are well-prepared for any
-        upcoming protests.
+        Looking back on 2020, we noticed that there was a huge shift towards{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          speaking out{" "}
+        </span>
+        and{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          demanding change{" "}
+        </span>
+        . We wanted to create a{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>platform </span>{" "}
+        that would both{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          connect passionate users with movements{" "}
+        </span>{" "}
+        related to their beliefs as well as{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          allow organizers to set-up their own events{" "}
+        </span>{" "}
+        and reach attendees. The app aims to encourage individuals to speak out
+        about what they believe in and bring together communities with a common
+        goal in mind. We also wanted to inform protestors about key information
+        as well as incorporate customization so that users are well-prepared for
+        any upcoming protests.
       </div>
-      <div className="subheading">What it does</div>
+      <div className="subheading">Key Features</div>
       <div className="paragraph">
-        The app gives users access to key information about attending protests
-        including First-Aid tips, Rights, and Protest Schedules/Routes. The home
-        page operates as a widget screen in which each widget with contains a
-        key piece of information or a customizable feature. Users can swap out
-        widgets based on their needs. Additionally, the app allows users to
-        search for protests and confirm their attendance, helping organizers
-        gauge their audience size. The app also caters towards protest
-        organizers and allows them to set up their own protests and post them
-        either publicly or privately. Private protests will have restricted
-        visibility and can only be joined through a QR code which is generated
-        upon protest creation.
+        <ul>
+          <li>
+            Gives users access to key information about attending protests
+            including First-Aid tips, Rights, and Protest Schedules/Routes
+          </li>
+          <li>Customizable widget screen, with personalized widgets</li>
+          <li>Protest search page that allows users to confirm attendence</li>
+          <li>
+            Protest organizers can set up their own ones and post either
+            publicly or privately (secured through a QR code)
+          </li>
+        </ul>
       </div>
+
+      <Row
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          verticalAlign: "center",
+        }}
+      >
+        <div className="subheading" style={{ paddingRight: 50 }}>
+          Wireframes{" "}
+        </div>
+        <Image src={Wireframe} className="img-wireframes"></Image>
+      </Row>
+
       <div className="subheading">How we built it</div>
       <div className="paragraph">
         The app was built using React Native, JavaScript, Node.js and ReactJS.
@@ -95,12 +141,28 @@ function Projects() {
       </div>
       <div className="subheading">Challenges we ran into</div>
       <div className="paragraph">
-        We were also challenged by the remote-nature of the hackathon that
-        forced us to find creative ways to work collaboratively, split up our
-        code and finally put it all together. Given our limited experience
-        working with the mentioned languages, debugging was challenging as we
-        were unfamiliar with common errors and how to address them.
-        Additionally, we had team-members working on both Android and iOS
+        We were also challenged by the{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          remote-nature{" "}
+        </span>{" "}
+        of the hackathon that forced us to find{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          creative ways{" "}
+        </span>{" "}
+        to work{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          collaboratively{" "}
+        </span>{" "}
+        , split up our code and finally put it all together. Given our limited
+        experience working with the mentioned languages,
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          debugging{" "}
+        </span>{" "}
+        was challenging as we were unfamiliar with common errors and how to
+        address them. Additionally, we had team-members working on both{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          Android and iOS{" "}
+        </span>{" "}
         devices which made it difficult to combine the code given styling
         differences between the different devices.
       </div>
@@ -113,27 +175,56 @@ function Projects() {
       </div>
       <div className="subheading">What we learned</div>
       <div className="paragraph">
-        We were able to develop a much stronger understanding of react-native
-        including styling, screen navigation and state-hooks. We also gained
-        experience working with Figma as a designing and prototyping tool that
-        was crucial in the planning and execution of our app design. Besides the
-        valuable technical skills we developed, we also developed strong
-        communication, team-work and time-management skills. We learned to be
-        resourceful and take every challenge as an opportunity to learn.
+        <ul>
+          <li>
+            We were able to develop a much stronger understanding of
+            react-native including{" "}
+            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+              styling
+            </span>
+            ,{" "}
+            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+              screen navigation{" "}
+            </span>{" "}
+            and{" "}
+            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+              state-hooks{" "}
+            </span>{" "}
+          </li>
+          <li>
+            We also gained experience working with{" "}
+            <span style={{ color: "#E86A67", fontWeight: "bold" }}>Figma </span>{" "}
+            as a designing and prototyping tool that was crucial in the planning
+            and execution of our app design
+          </li>
+          <li>Communication, team-work and time-management skills</li>
+          <li>
+            We learned to be{" "}
+            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+              resourceful{" "}
+            </span>{" "}
+            and take every challenge as an opportunity to learn
+          </li>
+        </ul>
       </div>
-      <div className="subheading">What's next for Rally</div>
+      <div className="subheading">Next Steps</div>
+
       <div className="paragraph">
-        We hope to be able to build upon our app through increased functionality
-        in terms of profile and protest creation. Additionally we would like to
-        incorporate direct communication with others through our app, which
-        might be done by incorporating Signal's app interface. Signal is an
-        encrypted messaging app that allows users to communicate directly and
-        privately regarding protests and messages are deleted shortly after
-        events to protect users. We also aim to improve accuracy of protest
-        search by optimizing word detection and allowing advanced search options
-        such as search by location. Overall we hope to maintain a positive and
-        user-friendly environment for both individuals and organizers to come
-        together and make a change in their local or greater community.
+        <ul>
+          <li> Increase functionality of profile and protest creation</li>
+          <li>
+            Incorporate direct communication with others through our app, which
+            might be done by incorporating Signal's app interface to ensure
+            private and secure messaging
+          </li>
+          <li>
+            Imorove accuracy of protest search through the addition of advanced
+            search options (e.g. filtering by location)
+          </li>
+        </ul>
+        Overall we hope to maintain a positive and user-friendly environment for
+        both individuals and organizers to come together and make a change in
+        their local or greater community.
       </div>
 
       <div className="subheading">Product Demo</div>

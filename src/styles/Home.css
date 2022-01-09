@@ -1,57 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 .div-intro {
-  background-color: #f7e5db;
   padding-left: 20px;
   padding-right: 50px;
 }
 
 .intro {
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .image-tara {
   width: 30vw;
-  border-radius: 100px;
-  margin-left: 100px;
   padding-right: 20px;
-}
-
-.header {
-  margin-left: 10%;
-  font-size: 70px;
-  font-weight: 900;
-  line-height: 70pt;
-  font-family: "lato";
-}
-
-.header2 {
-  margin-top: -50%;
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 70pt;
-  font-family: "lato";
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .header-name {
   margin-left: 10%;
-  font-size: 70px;
-  font-weight: 900;
+  font-size: 40px;
   line-height: 70pt;
-  font-family: "lato";
+  font-family: "Open Sans", sans-serif;
 }
 
 .subtext {
   margin-left: 10%;
-  margin-top: 30px;
   font-size: 20px;
-  font-family: "lato";
+  font-family: "Open Sans", sans-serif;
 }
 
 .row-icons {
   margin-top: 20px;
-  width: 39%;
+  justify-content: center;
 }
 
 .icon:hover {
@@ -61,11 +42,13 @@
 }
 
 .icon {
-  width: 50px;
+  width: 40px;
+  padding: 5px;
 }
 .icon-devpost {
-  height: 60px;
+  height: 48px;
   margin-top: -2px;
+  padding: 5px;
 }
 
 @media screen and (max-width: 1300px) {

@@ -11,6 +11,7 @@ import sp2 from "../images/sp2.png";
 import sp3 from "../images/sp3.png";
 import sp4 from "../images/sp4.png";
 import sp5 from "../images/sp5.png";
+import Wireframe from "../images/SplitpeasWireframe.png";
 import "../styles/SplitPeas.css";
 import ReactPlayer from "react-player";
 
@@ -36,43 +37,75 @@ function Projects() {
       </Row>
       <br></br>
       <div className="paragraph">
-        <b className="summary-splitpeas">Role(s):</b> Software Developer, UI/UX
-        Designer, UI/UX Researcher, Product Manager
+        <b className="summary-splitpeas">💼 Role(s):</b> Software Developer,
+        UI/UX Designer, UI/UX Researcher, Product Manager
         <br></br>
-        <b className="summary-splitpeas">Languages and Tools:</b> React Native,
-        Javascript, Firebase, Figma
+        <b className="summary-splitpeas">🛠️ Languages and Tools:</b> React
+        Native, Javascript, Firebase, Figma
         <br></br>
-        <b className="summary-splitpeas">Timeline:</b> January - March 2021
+        <b className="summary-splitpeas">🗓️ Timeline:</b> January - March 2021
+        <br></br>
+        <b className="summary-splitpeas">👥 Team:</b> Allie Dong, Amanda Yu,
+        Tara Rao-Pandit, Tong Yin Han, and Zoey Wei
+        <br></br>
         <br></br>
         <a
           href="https://github.com/traopand/split-peas"
           className="git-splitpeas"
           target="_blank"
         >
-          <b className="summary-splitpeas">Github Repo 🔗</b>
+          <b className="summary-splitpeas">🔗 Github Repo</b>
         </a>
       </div>
       <br></br>
       <div className="paragraph">
-        SplitPeas is a mobile application that I designed alongside four other
-        UW students to help university students reduce stress around grocery
-        shopping. SplitPeas offers students a convenient, reliable and
-        time-efficient way to split grocery trips and bills between roommates.
-        We give our users the ability to track expiry dates and make the best
-        use of their groceries. We list coupons for local grocery stores and a
-        recipe bank for recipes with available groceries. Split-Peas. We help
-        struggling students save time, money and food. The project was completed
-        as a part of the Tech Under Twenty Cup 2021, over a three month period.
-        In our group I helped design the figma prototype, code the MVP as well
-        as conducting user research.
+        SplitPeas is a{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          mobile application{" "}
+        </span>{" "}
+        that I designed alongside four other UW students to help university
+        students reduce stress around grocery shopping. SplitPeas offers
+        students a{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>convenient</span>
+        ,{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>reliable </span>{" "}
+        and{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          time-efficient{" "}
+        </span>{" "}
+        way to split grocery trips and bills between roommates. We give our
+        users the ability to track expiry dates and make the best use of their
+        groceries. We list coupons for local grocery stores and a recipe bank
+        for recipes with available groceries. Split-Peas. We help struggling
+        students save time, money and food. The project was completed as a part
+        of the Tech Under Twenty Cup 2021, over a three month period. In our
+        group I helped design the{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          figma prototype{" "}
+        </span>
+        , code the{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>MVP </span> as
+        well as conducting{" "}
+        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+          user research
+        </span>
+        .
       </div>
 
       <br></br>
 
-      <div className="subheading">User Persona</div>
-
-      <Row style={{ justifyContent: "center" }}>
-        <Image src={Emma} className="Emma"></Image>
+      <Row
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          verticalAlign: "center",
+        }}
+      >
+        <div className="subheading" style={{ paddingRight: 50 }}>
+          User Persona{" "}
+        </div>
+        <Image src={Emma} className="sp4"></Image>
       </Row>
 
       <div className="paragraph">
@@ -152,15 +185,39 @@ function Projects() {
         After conducting our user and competitive research we had a strong idea
         of what features we wanted to include such as group list creation, bill
         splitting, food expiry tracking, local grocery store coupons and
-        recipes. Below are sample designs that I made on figma for our
+        recipes. Below are sample designs that we made on figma for our
         dashboard, experimenting with color schemes to understand what was the
-        easiest to read and navigate through.
+        easiest to read and navigate through, and finally the high-fidelity
+        wireframes.
       </div>
 
-      <Row style={{ justifyContent: "center" }}>
-        <Image src={sp5} className="sp5"></Image>
+      <Row
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          verticalAlign: "center",
+        }}
+      >
+        <div className="subheading" style={{ paddingRight: 140 }}>
+          Design Iterations{" "}
+        </div>
+        <Image src={sp5} className="sp4"></Image>
       </Row>
 
+      <Row
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          verticalAlign: "center",
+        }}
+      >
+        <div className="subheading" style={{ paddingRight: 50 }}>
+          High Fidelity Wireframes{" "}
+        </div>
+        <Image src={Wireframe} className="sp4"></Image>
+      </Row>
       <div className="subheading">Product Demo</div>
       <Row style={{ justifyContent: "center" }}>
         <ReactPlayer url="https://youtu.be/KXNlwwRgAI4" />

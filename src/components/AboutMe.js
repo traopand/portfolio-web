@@ -2,7 +2,7 @@ import React from "react";
 import Alert from "react-bootstrap/Alert";
 import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
-import Tara from "../images/tara.png";
+import Tara from "../images/tara.JPG";
 import Linkedin from "../images/linkedin.png";
 import Devpost from "../images/devpost.png";
 import Github from "../images/github.png";
@@ -13,13 +13,14 @@ import MySkills from "./MySkills";
 function About() {
   return (
     <div className="div-about">
-      <Row className="about">
-        <Col xs={8} md={4}>
-          <Image src={Tara} className="image-tara2" />
-        </Col>
+      <Row xs={8} md={4} style={{ display: "flex", justifyContent: "center" }}>
+        <Image src={Tara} className="image-tara2" />
+      </Row>
+      <Row
+        className="about"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
         <Col xs={12} md={8}>
-          <div className="header"> About Me :) </div>
-
           <div className="subtext">
             Hi! I’m Tara, a first-year systems design engineering student at the
             University of Waterloo. I’ve always been interested in the

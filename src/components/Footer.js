@@ -29,42 +29,6 @@ function Footer() {
             <div>
               <Row style={{ justifyContent: "center" }}>
                 <Col>
-                  <Nav.Link href="/Projects" className="footer-head">
-                    Projects
-                  </Nav.Link>
-                  <Nav.Link href="/Quicktab" className="footer-text">
-                    Quicktab
-                  </Nav.Link>
-                  <Nav.Link href="/Splitpeas" className="footer-text">
-                    SplitPeas
-                  </Nav.Link>
-                  <Nav.Link href="/Rally" className="footer-text">
-                    Rally
-                  </Nav.Link>
-                  <Nav.Link href="/Habbit" className="footer-text">
-                    Habbit
-                  </Nav.Link>
-                </Col>
-                <Nav.Link
-                  target="_blank"
-                  href="https://drive.google.com/file/d/1MqK54gZvXfKduEWkajfdpFXkfLdnoI8X/view?usp=sharing"
-                  className="footer-head"
-                >
-                  Resume
-                </Nav.Link>
-                <Nav.Link href="/About" className="footer-head">
-                  About Me
-                </Nav.Link>
-                <Col>
-                  <Nav.Link className="footer-head-disabled">Contact</Nav.Link>
-
-                  <Nav.Link
-                    className="footer-text"
-                    href="mailto: traopand@uwaterloo.ca"
-                    target="_blank"
-                  >
-                    traopand@uwaterloo.ca
-                  </Nav.Link>
                   <Row className="contact-icons ">
                     <a
                       href="https://www.linkedin.com/in/tara-rao-pandit/"

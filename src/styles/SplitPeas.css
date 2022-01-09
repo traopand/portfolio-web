@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 .projectheader {
   margin-left: 20px;
   font-size: 50px;
   font-weight: 900;
   line-height: 70pt;
-  font-family: "lato";
+  font-family: "Open Sans", sans-serif;
   text-decoration: underline;
   text-decoration-color: #f5ded1;
   text-decoration-thickness: 10px;
@@ -18,8 +18,8 @@
 }
 
 .summary-splitpeas {
-  background-color: #e4eed8;
   color: black;
+  font-family: "Open Sans", sans-serif;
 }
 
 .git-splitpeas:hover {
@@ -64,7 +64,7 @@
   font-weight: 900;
   line-height: 70pt;
   margin-right: 65%;
-  font-family: "lato";
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: black;
   text-align: left;
@@ -93,7 +93,7 @@
   font-size: 25px;
   font-weight: 900;
   line-height: 70pt;
-  font-family: "lato";
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: black;
 }
@@ -103,7 +103,7 @@
   font-size: 25px;
   font-weight: 900;
   line-height: 70pt;
-  font-family: "lato";
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: black;
   opacity: 0.5;
@@ -112,14 +112,14 @@
 .next:hover {
   text-decoration: underline;
   text-decoration-color: #f5ded1;
-  text-decoration-thickness: 10px;
+  text-decoration-thickness: 5px;
   color: black;
 }
 
 .prev:hover {
   text-decoration: underline;
   text-decoration-color: #f5ded1;
-  text-decoration-thickness: 10px;
+  text-decoration-thickness: 5px;
   color: black;
 }
 

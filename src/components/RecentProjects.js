@@ -9,6 +9,8 @@ import Github from "../images/github.png";
 import Typewriter from "typewriter-effect";
 import "../styles/Projects.css";
 import Rectangle from "../images/rectangle.png";
+import Shinydocs from "../images/shinydocs.png";
+import Tunely from "../images/tunely.png";
 import Habbit from "../images/habbit.png";
 import Rally from "../images/rally.png";
 import Splitpeas from "../images/splitpeas.png";
@@ -17,17 +19,45 @@ import Quicktab from "../images/quicktab.png";
 function Projects() {
   return (
     <div className="div-projects">
-      <div className="projects-header">Recent Projects</div>
+      <div className="projects-header">
+        Take a look at what I've been working on ⬇️
+      </div>
+      <Row style={{ justifyContent: "center" }}>
+        <div className="grid">
+          <div className="shinydocs">
+            <a href="/shinydocs">
+              <Image src={Shinydocs} className="img-projects"></Image>
+            </a>
+            <div class="overlay-shinydocs">
+              <div class="text">
+                {" "}
+                <b> Software Developer @ Shinydocs </b> | Sep - Dec 2021{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid">
+          <div className="tunely">
+            <a href="/tunely">
+              <Image src={Tunely} className="img-projects"></Image>
+            </a>
+            <div class="overlay-tunely">
+              <div class="text">
+                <b>Tunely</b> | Sep - Dec 2021
+              </div>
+            </div>
+          </div>
+        </div>
+      </Row>
       <Row style={{ justifyContent: "center" }}>
         <div className="grid">
           <div className="quicktab">
             <a href="/quicktab">
-              <Image src={Quicktab} className="img-quicktab"></Image>
+              <Image src={Quicktab} className="img-projects"></Image>
             </a>
             <div class="overlay-quicktab">
               <div class="text">
-                Software Developer @ Quicktab - Development of landing page
-                redesign, restaurant web platform and QR code internal tool.{" "}
+                <b>Software Developer @ Quicktab</b> | Jan - Apr 2021
               </div>
             </div>
           </div>
@@ -35,13 +65,11 @@ function Projects() {
         <div className="grid">
           <div className="splitpeas">
             <a href="/splitpeas">
-              <Image src={Splitpeas} className="img-splitpeas"></Image>
+              <Image src={Splitpeas} className="img-projects"></Image>
             </a>
             <div class="overlay-splitpeas">
               <div class="text">
-                SplitPeas - A mobile application designed to help university
-                students save money, time and reduce food waste through group
-                grocery shopping.
+                <b>SplitPeas</b> | Jan - Mar 2021
               </div>
             </div>
           </div>
@@ -51,13 +79,11 @@ function Projects() {
         <div className="grid">
           <div className="rally">
             <a href="/rally">
-              <Image src={Rally} className="img-rally"></Image>
+              <Image src={Rally} className="img-projects"></Image>
             </a>
             <div class="overlay-rally">
               <div class="text">
-                Rally - A mobile application developed to connect passionate
-                individuals and encourage safe and positive activism in the
-                community.
+                <b>Rally</b> | Jan 2021
               </div>
             </div>
           </div>
@@ -65,13 +91,11 @@ function Projects() {
         <div className="grid">
           <div className="habbit">
             <a href="/habbit">
-              <Image src={Habbit} className="img-habbit"></Image>
+              <Image src={Habbit} className="img-projects"></Image>
             </a>
             <div class="overlay-habbit">
               <div class="text">
-                {" "}
-                Habbit - A mobile application aimed to educate young girls about
-                finance while managing their spending, earnings, and savings.{" "}
+                <b>Habbit</b> | Jan 2021
               </div>
             </div>
           </div>

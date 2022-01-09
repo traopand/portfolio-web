@@ -1,42 +1,110 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 .projects-header {
-  margin-left: 20px;
-  font-size: 50px;
-  font-weight: 900;
-  line-height: 70pt;
-  font-family: "lato";
-  text-decoration: underline;
-  text-decoration-color: #f5ded1;
-  text-decoration-thickness: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 40px;
 }
 
 .div-projects {
-  background-color: white;
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 10px;
 }
 
 .grid {
-  padding: 20px;
+  padding: 5px;
 }
 
-.img-splitpeas {
+.img-projects {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.overlay-splitpeas {
+.overlay-shinydocs {
   position: absolute;
-  width: 90%;
   height: fit-content;
-  bottom: 10%;
-  left: 5%;
-  right: 5%;
+  width: fit-content;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #abb6a0;
+  background-color: #045d56;
+  border-radius: 5px;
+}
+
+.shinydocs {
+  position: relative;
+  width: 40vw;
+}
+
+.shinydocs:hover .img-projects {
+  opacity: 0.5;
+}
+
+.shinydocs:hover .overlay-shinydocs {
+  opacity: 1;
+}
+
+.overlay-tunely {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #a635ff;
+  color: white;
+  border-radius: 5px;
+}
+
+.tunely {
+  position: relative;
+  width: 40vw;
+}
+
+.tunely:hover .img-projects {
+  opacity: 0.5;
+}
+
+.tunely:hover .overlay-tunely {
+  opacity: 1;
+}
+
+.overlay-splitpeas {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #647d7d;
+  color: white;
+  border-radius: 5px;
 }
 
 .splitpeas {
@@ -44,7 +112,7 @@
   width: 40vw;
 }
 
-.splitpeas:hover .img-splitpeas {
+.splitpeas:hover .img-projects {
   opacity: 0.5;
 }
 
@@ -52,22 +120,24 @@
   opacity: 1;
 }
 
-.img-quicktab {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .overlay-quicktab {
   position: absolute;
-  width: 90%;
+  width: fit-content;
   height: fit-content;
-  bottom: 10%;
-  left: 5%;
-  right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #b1b0b9;
+  background-color: #43425d;
+  color: white;
+  border-radius: 5px;
 }
 
 .quicktab {
@@ -75,7 +145,7 @@
   width: 40vw;
 }
 
-.quicktab:hover .img-quicktab {
+.quicktab:hover .img-projects {
   opacity: 0.5;
 }
 
@@ -83,22 +153,24 @@
   opacity: 1;
 }
 
-.img-habbit {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .overlay-habbit {
   position: absolute;
-  width: 90%;
+  width: fit-content;
   height: fit-content;
-  bottom: 10%;
-  left: 5%;
-  right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #fbe79e;
+  background-color: #e27e7b;
+  color: white;
+  border-radius: 5px;
 }
 
 .habbit {
@@ -106,7 +178,7 @@
   width: 40vw;
 }
 
-.habbit:hover .img-habbit {
+.habbit:hover .img-projects {
   opacity: 0.4;
 }
 
@@ -114,22 +186,24 @@
   opacity: 1;
 }
 
-.img-rally {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .overlay-rally {
   position: absolute;
-  width: 90%;
+  width: fit-content;
   height: fit-content;
-  bottom: 10%;
-  left: 5%;
-  right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #fbd9bd;
+  background-color: #e38b60;
+  color: white;
+  border-radius: 5px;
 }
 
 .rally {
@@ -137,7 +211,7 @@
   width: 40vw;
 }
 
-.rally:hover .img-rally {
+.rally:hover .img-projects {
   opacity: 0.5;
 }
 
@@ -148,7 +222,7 @@
 .text {
   padding: 10px;
   font-size: 15px;
-  font-family: "lato";
+  font-family: "Open Sans", sans-serif;
 }
 
 @media screen and (max-width: 1300px) {
@@ -157,7 +231,7 @@
     font-size: 30px;
     font-weight: 900;
     line-height: 70pt;
-    font-family: "lato";
+    font-family: "Open Sans", sans-serif;
     text-decoration: underline;
     text-decoration-color: #f5ded1;
     text-decoration-thickness: 10px;
@@ -214,7 +288,7 @@
 
   .text {
     font-size: 14px;
-    font-family: "lato";
+    font-family: "Open Sans", sans-serif;
   }
 }
 
