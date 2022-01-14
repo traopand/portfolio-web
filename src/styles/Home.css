@@ -1,31 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 .div-intro {
-  padding-left: 20px;
-  padding-right: 50px;
+  justify-content: "center"; 
+   display: flex; 
 }
 
 .intro {
   padding-top: 100px;
   padding-bottom: 40px;
+  width: 60vw; 
 }
 
 .image-tara {
-  width: 30vw;
+  width: 30vw; 
   padding-right: 20px;
   margin-top: auto;
   margin-bottom: auto;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
 }
 
 .header-name {
-  margin-left: 10%;
   font-size: 40px;
   line-height: 70pt;
   font-family: "Open Sans", sans-serif;
 }
 
 .subtext {
-  margin-left: 10%;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
 }

@@ -5,6 +5,12 @@
   font-family: "Open Sans", sans-serif;
   padding-bottom: 40px;
 }
+.take-look {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 10px; 
+}
 
 .div-projects {
   padding-left: 100px;
@@ -251,6 +257,12 @@
   .rally {
     width: 30vw;
   }
+  .shinydocs {
+    width: 30vw;
+  }
+  .tunely {
+    width: 30vw;
+  }
   .div-projects {
     padding-left: 70px;
     padding-right: 70px;
@@ -270,6 +282,12 @@
   .rally {
     width: 30vw;
   }
+  .shinydocs {
+    width: 30vw;
+  }
+  .tunely {
+    width: 30vw;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -285,9 +303,15 @@
   .rally {
     width: 70vw;
   }
+  .shinydocs {
+    width: 70vw;
+  }
+  .tunely {
+    width: 70vw;
+  }
 
   .text {
-    font-size: 14px;
+    font-size: 12px;
     font-family: "Open Sans", sans-serif;
   }
 }
@@ -296,12 +320,19 @@
   .projects-header {
     font-size: 35px;
   }
+  .take-look {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 789px) {
   .projects-header {
     font-size: 25px;
     line-height: 25px;
+    
+  }
+  .take-look {
+    font-size: 15px;
   }
 }
 

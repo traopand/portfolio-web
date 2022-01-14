@@ -16,10 +16,11 @@ import Rally from "../images/rally.png";
 import Splitpeas from "../images/splitpeas.png";
 import Quicktab from "../images/quicktab.png";
 
+
 function Projects() {
   return (
     <div className="div-projects">
-      <div className="projects-header">
+      <div className="take-look">
         Take a look at what I've been working on ⬇️
       </div>
       <Row style={{ justifyContent: "center" }}>

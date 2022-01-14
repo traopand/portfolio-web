@@ -12,8 +12,10 @@ import "../styles/Home.css";
 function About() {
   return (
     <div className="div-intro">
+    
+          <Image src={Tara} className="image-tara" />
       <Row className="intro">
-        <Col xs={12} md={8} className="center">
+        <Col className="center">
           <div className="header-name">
             {" "}
             <Typewriter
@@ -78,17 +80,6 @@ function About() {
               </a>
             </Row>
           </div>
-        </Col>
-        <Col
-          xs={8}
-          md={4}
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <Image src={Tara} className="image-tara" />
         </Col>
       </Row>
     </div>
