@@ -2,7 +2,7 @@ import React from "react";
 import Alert from "react-bootstrap/Alert";
 import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
-import Tara from "../images/drawing.png";
+import Tara from "../images/tara-drawing.png";
 import Linkedin from "../images/linkedin.png";
 import Mail from "../images/mail.png";
 import Github from "../images/github.png";
