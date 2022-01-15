@@ -7,10 +7,12 @@ import Linkedin from "../images/linkedin.png";
 import Mail from "../images/mail.png";
 import Github from "../images/github.png";
 import Typewriter from "typewriter-effect";
+import Footer from "./Footer"; 
 import "../styles/Home.css";
 
 function About() {
   return (
+    <div>
     <div className="div-intro">
     
           <Image src={Tara} className="image-tara" />
@@ -57,32 +59,15 @@ function About() {
               UI/UX design
             </span>
             .
-            <Row className="row-icons">
-              <a
-                href="https://www.linkedin.com/in/tara-rao-pandit/"
-                target="_blank"
-              >
-                <Image className="icon contact-icon" src={Linkedin}></Image>
-              </a>
-
-              <a href="https://github.com/traopand" target="_blank">
-                <Image className="icon contact-icon" src={Github}></Image>
-              </a>
-
-              <a
-                href="mailto: traopand@uwaterloo.ca"
-                target="_blank"
-              >
-                <Image
-                  className="icon contact-icon"
-                  src={Mail}
-                ></Image>
-              </a>
-            </Row>
           </div>
         </Col>
       </Row>
+   
     </div>
+    <Footer />
+    </div>
+
+
   );
 }
 

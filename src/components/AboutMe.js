@@ -24,7 +24,7 @@ function About() {
     <div className="div-about">
       <Row style={{alignItems: "center", paddingLeft: 30, paddingRight:30}}>
       <Image src={about} className="img-about"/>
-        <Col xs={12} md={6} className="first-about">
+        <Col className="first-about">
           <div className="subtext">
             Hi! I’m Tara, a second-year  <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           systems design engineering student {" "}
@@ -57,7 +57,7 @@ function About() {
            
            
             <Row style={{alignItems: "center", paddingLeft: 30, paddingRight:30}}>
-        <Col xs={12} md={6} className="sec-about">
+        <Col className="sec-about">
         <div className="subtext">
             I am a <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
             {" "}self-motivated{" "}

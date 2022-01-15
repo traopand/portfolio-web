@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 .footer {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   background: none !important;
-  margin: auto;
-  width: 10%;
-  padding: 10px;
   text-align: center;
 }
 
@@ -73,6 +70,7 @@
 
 .contact-icons {
   margin-top: 10px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 996px) {

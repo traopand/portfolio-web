@@ -4,7 +4,6 @@
   justify-content: "center"; 
    display: flex; 
    margin-top: 30px; 
-   padding-bottom: 30px 
 }
 
 .intro {
@@ -165,16 +164,25 @@
 }
 
 @media screen and (max-width: 770px) {
+ .intro {
+   width: 100vw; 
+   padding: 30px; 
+ }
+
+ .subtext {
+   text-align: center;
+   padding-top: 10px; 
+ }
+
   .image-tara {
-    margin-left: 59%;
-    border-radius: 40px;
-    padding-right: 0px;
+    visibility: hidden; 
+    position: absolute; 
   }
   .header-name {
     text-align: center;
   }
   .row-icons {
-    width: 50%;
+    width: 100%;
     align-items: center;
   }
 }

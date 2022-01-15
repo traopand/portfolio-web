@@ -1,3 +1,15 @@
 .img-persona {
   width: 40vw;
 }
+
+.recommendation {
+  font-size: 18px;
+  font-weight: 400;
+  color: black !important;
+  font-style: italic; 
+}
+
+.rec-name {
+  font-size: 18px;
+  text-align: center;
+}

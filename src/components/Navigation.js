@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import "../styles/Navigation.css";
 function Navigation() {
   return (
-    <div>
+    <div classsName="Navigation-bar">
       <Navbar collapseOnSelect expand="lg" bg="#FFFFFF" variant="light">
         <Navbar.Brand href="/" className="nav-name">
           Tara Rao-Pandit 🪐

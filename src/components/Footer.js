@@ -18,8 +18,6 @@ function Footer() {
   return (
   
           <div className="footer">
-              <Row style={{ justifyContent: "center" }}>
-                <Col>
                   <Row className="contact-icons ">
                     <a
                       href="https://www.linkedin.com/in/tara-rao-pandit/"
@@ -47,13 +45,6 @@ function Footer() {
                       />
                     </a>
                   </Row>
-                </Col>
-
-                {/* <Nav.Link href="/Fun" className="nav-text">
-              Fun!
-  </Nav.Link>*/}
-              </Row>
-              
     </div>
   );
 }
