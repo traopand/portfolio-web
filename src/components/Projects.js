@@ -15,13 +15,14 @@ import Splitpeas from "../images/splitpeas.png";
 import Quicktab from "../images/quicktab.png";
 import Shinydocs from "../images/shinydocs.png";
 import Tunely from "../images/tunely.png";
+import MyProjects from "../images/my-projects.png"; 
 
 function Projects() {
   return (
     <div className="div-projects">
-      <div className="projects-header">
-        Take a look at what I've been working on! ⬇️
-      </div>
+      <Row style={{ justifyContent: "center", paddingBottom: 5 }}>
+      <Image src={MyProjects} className="my-projects"></Image>
+      </Row>
       <Row style={{ justifyContent: "center" }}>
         <div className="grid">
           <div className="shinydocs">

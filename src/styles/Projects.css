@@ -5,6 +5,10 @@
   font-family: "Open Sans", sans-serif;
   padding-bottom: 40px;
 }
+.my-projects {
+  width: 30vw; 
+}
+
 .take-look {
   text-align: center;
   font-size: 20px;
