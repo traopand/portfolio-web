@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import Tara from "../images/drawing.png";
 import Linkedin from "../images/linkedin.png";
-import Devpost from "../images/devpost.png";
+import Mail from "../images/mail.png";
 import Github from "../images/github.png";
 import Typewriter from "typewriter-effect";
 import "../styles/Home.css";
@@ -29,31 +29,31 @@ function About() {
           </div>
           <div className="subtext">
             a second-year{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               Systems Design Engineering
             </span>{" "}
             student at The University of Waterloo with a passion for developing{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               accessible{" "}
             </span>{" "}
             and{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               user-focused{" "}
             </span>{" "}
-            technology .
+            technology.
             <br />
             <br />
             I'm currently looking for
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               {" "}
               Summer 2022
             </span>{" "}
             internship opportunities to expand my skills and am interested in{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               web/app development
             </span>
             , and{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               UI/UX design
             </span>
             .
@@ -70,12 +70,12 @@ function About() {
               </a>
 
               <a
-                href="https://devpost.com/tararaopandit?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+                href="mailto: traopand@uwaterloo.ca"
                 target="_blank"
               >
                 <Image
-                  className="icon-devpost contact-icon"
-                  src={Devpost}
+                  className="icon contact-icon"
+                  src={Mail}
                 ></Image>
               </a>
             </Row>

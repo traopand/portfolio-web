@@ -60,17 +60,17 @@ function Projects() {
       <br></br>
       <div className="paragraph">
         SplitPeas is a{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           mobile application{" "}
         </span>{" "}
         that I designed alongside four other UW students to help university
         students reduce stress around grocery shopping. SplitPeas offers
         students a{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>convenient</span>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>convenient</span>
         ,{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>reliable </span>{" "}
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>reliable </span>{" "}
         and{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           time-efficient{" "}
         </span>{" "}
         way to split grocery trips and bills between roommates. We give our
@@ -80,13 +80,13 @@ function Projects() {
         students save time, money and food. The project was completed as a part
         of the Tech Under Twenty Cup 2021, over a three month period. In our
         group I helped design the{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           figma prototype{" "}
         </span>
         , code the{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>MVP </span> as
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>MVP </span> as
         well as conducting{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           user research
         </span>
         .

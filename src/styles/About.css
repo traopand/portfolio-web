@@ -1,19 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
-.div-about {
-  padding-left: 20px;
-  padding-right: 50px;
-}
-
 .about {
   padding-top: 70px;
   padding-bottom: 80px;
 }
 
-.image-tara2 {
-  width: 30vw;
-  margin-left: 20px;
+.interest-title {
+  width: 500px; 
+}
+
+.sec-about {
   margin-top: 20px;
+  margin-bottom: 20px; 
+  padding-left: 30px;
+  align-items: center;
+}
+
+.int-about {
+
+  align-items: center;
+  align-content: center;
+}
+
+.int-carousel {
+  position: relative;
+  width: 600px; 
+}
+
+.carousel-grp {
+  width: 600px; 
+  padding-left: 30px;
+}
+
+.img-interests {
+  position: absolute;
+  width: 600px; 
+}
+
+
+.img-about {
+  width: 600px;  
+}
+
+.image-tara2 {
+  width: 500px !important;
+
 }
 
 .my-interests {
@@ -34,10 +65,6 @@
 }
 
 @media screen and (max-width: 1389px) {
-  .image-tara2 {
-    margin-left: 30px;
-    height: 400px;
-  }
   .header {
     font-size: 60px;
     line-height: 60pt;
@@ -57,10 +84,6 @@
     font-size: 60px;
     line-height: 60pt;
   }
-  .image-tara2 {
-    margin-left: 30px;
-    height: 350px;
-  }
 }
 
 @media screen and (max-width: 1157px) {
@@ -73,10 +96,6 @@
     line-height: 40pt;
   }
 
-  .image-tara2 {
-    margin-left: 30px;
-    height: 300px;
-  }
   .subtext {
     font-size: 18px;
   }
@@ -105,10 +124,6 @@
     font-size: 40px;
     line-height: 40pt;
   }
-
-  .image-tara2 {
-    margin-left: 30px;
-  }
   .subtext {
     font-size: 18px;
   }
@@ -128,11 +143,6 @@
 }
 
 @media screen and (max-width: 910px) {
-  .image-tara2 {
-    justify-content: center;
-    height: 250px;
-    position: relative;
-  }
 
   .row-icons {
     margin-top: 20px;
@@ -151,10 +161,6 @@
   .header-name {
     font-size: 30px;
     line-height: 30pt;
-  }
-
-  .image-tara2 {
-    margin-left: 50%;
   }
   .subtext {
     font-size: 15px;
@@ -182,49 +188,10 @@
 }
 
 @media screen and (max-width: 670px) {
-  .image-tara2 {
-    justify-content: center;
-    margin-right: 0px;
-    margin-left: 40%;
-  }
 }
 
 @media screen and (max-width: 455px) {
   .row-icons {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 414px) {
-  .image-tara2 {
-    height: 150px !important;
-    margin-left: 115px;
-  }
-
-  @media screen and (max-width: 375px) {
-    .image-tara2 {
-      height: 100px !important;
-      margin-left: 112px;
-    }
-  }
-
-  @media screen and (max-width: 360px) {
-    .image-tara2 {
-      height: 100px !important;
-      margin-left: 110px;
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    .image-tara2 {
-      height: 100px !important;
-      margin-left: 85px;
-    }
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .image-tara2 {
-    margin-left: 55%;
   }
 }

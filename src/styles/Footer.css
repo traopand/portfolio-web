@@ -1,18 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
 .footer {
   padding-bottom: 40px;
   background: none !important;
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+  text-align: center;
 }
 
 .coded-by {
-  color: #6d6b6b;
+  color: black;
   text-align: center;
-  margin-left: 7px;
-  margin-top: 20px;
-  font-weight: bold;
+  justify-content: center;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
 }
 .coded-by2 {
   visibility: hidden;
   position: absolute;
+  font-family: "Open Sans", sans-serif;
   margin-top: -30px;
 }
 .footer-head {
@@ -59,14 +66,12 @@
   width: 50px !important;
   padding-right: 10px;
 }
-.devpost-icon {
+.mail-icon {
   width: 50px !important;
   margin-top: -3px;
 }
 
 .contact-icons {
-  padding-left: 30px !important;
-  padding-right: 30px !important;
   margin-top: 10px;
 }
 
@@ -105,14 +110,12 @@
     width: 50px !important;
     padding-right: 10px;
   }
-  .devpost-icon {
+  .mail-icon {
     width: 50px !important;
     margin-top: -3px;
   }
 
   .contact-icons {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
     margin-top: 10px;
   }
 }
@@ -126,8 +129,6 @@
   .coded-by2 {
     color: #6d6b6b;
     text-align: center;
-    margin-left: 30px;
-    margin-top: -30px;
     font-weight: bold;
     z-index: 1;
     visibility: visible;

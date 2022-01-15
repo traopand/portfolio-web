@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import Tara from "../images/tara.png";
 import Linkedin from "../images/linkedin.png";
-import Devpost from "../images/devpost.png";
+import mail from "../images/mail.png";
 import Github from "../images/github.png";
 import Typewriter from "typewriter-effect";
 import "../styles/Projects.css";
@@ -20,11 +20,13 @@ import Quicktab from "../images/quicktab.png";
 function Projects() {
   return (
     <div className="div-projects">
-      <div className="take-look">
-        Take a look at what I've been working on ⬇️
+      <div className="take-look" >
+        <a href="#projects" className="take-look">
+        Take a look at what I've been working on ⬇
+        </a>
       </div>
       <Row style={{ justifyContent: "center" }}>
-        <div className="grid">
+        <div className="grid" id="projects">
           <div className="shinydocs">
             <a href="/shinydocs">
               <Image src={Shinydocs} className="img-projects"></Image>

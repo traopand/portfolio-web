@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import { Row } from "react-bootstrap";
+import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
@@ -14,6 +14,10 @@ import Rally from "./components/Rally";
 import Habbit from "./components/Habbit";
 import Tunely from "./components/Tunely";
 import Shinydocs from "./components/Shinydocs";
+import "./styles/Footer.css";
+import Linkedin from "./images/linkedin.png";
+import Mail from "./images/mail.png";
+import Github from "./images/github.png";
 //import Error from "./components/Error";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
@@ -37,10 +41,11 @@ class App extends Component {
             {/*<Route component={Error} />*/}
           </Switch>
           <Footer />
-          <Row className="coded-by2">
-            Coded by Tara Rao-Pandit using React JS {`:)`}
-          </Row>
-        </div>
+          <Row className="coded-by">
+                Made with {`<3`} by Tara Rao-Pandit{` :)`}
+              </Row>
+              <br/>
+  </div>
       </BrowserRouter>
     );
   }

@@ -54,17 +54,17 @@ function Projects() {
       <br></br>
       <div className="paragraph">
         Rally is a{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           mobile application{" "}
         </span>{" "}
         that I developed alongside 3 Systems Design Engineering students as a
         part of Hack The North 2021. We had 36 hours to develop our designs in
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           {" "}
           Figma{" "}
         </span>{" "}
         and code our application. We used{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           React Native{" "}
         </span>
         to code the application.
@@ -73,21 +73,21 @@ function Projects() {
       <div className="subheading">Inspiration</div>
       <div className="paragraph">
         Looking back on 2020, we noticed that there was a huge shift towards{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           speaking out{" "}
         </span>
         and{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           demanding change{" "}
         </span>
         . We wanted to create a{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>platform </span>{" "}
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>platform </span>{" "}
         that would both{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           connect passionate users with movements{" "}
         </span>{" "}
         related to their beliefs as well as{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           allow organizers to set-up their own events{" "}
         </span>{" "}
         and reach attendees. The app aims to encourage individuals to speak out
@@ -142,25 +142,25 @@ function Projects() {
       <div className="subheading">Challenges we ran into</div>
       <div className="paragraph">
         We were also challenged by the{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           remote-nature{" "}
         </span>{" "}
         of the hackathon that forced us to find{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           creative ways{" "}
         </span>{" "}
         to work{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           collaboratively{" "}
         </span>{" "}
         , split up our code and finally put it all together. Given our limited
         experience working with the mentioned languages,
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           debugging{" "}
         </span>{" "}
         was challenging as we were unfamiliar with common errors and how to
         address them. Additionally, we had team-members working on both{" "}
-        <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+        <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
           Android and iOS{" "}
         </span>{" "}
         devices which made it difficult to combine the code given styling
@@ -179,28 +179,28 @@ function Projects() {
           <li>
             We were able to develop a much stronger understanding of
             react-native including{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               styling
             </span>
             ,{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               screen navigation{" "}
             </span>{" "}
             and{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               state-hooks{" "}
             </span>{" "}
           </li>
           <li>
             We also gained experience working with{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>Figma </span>{" "}
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>Figma </span>{" "}
             as a designing and prototyping tool that was crucial in the planning
             and execution of our app design
           </li>
           <li>Communication, team-work and time-management skills</li>
           <li>
             We learned to be{" "}
-            <span style={{ color: "#E86A67", fontWeight: "bold" }}>
+            <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               resourceful{" "}
             </span>{" "}
             and take every challenge as an opportunity to learn

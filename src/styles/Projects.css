@@ -10,7 +10,15 @@
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
   padding-bottom: 10px; 
+  scroll-behavior: smooth;
+  color: black; 
 }
+
+.take-look:hover {
+  color: black; 
+  text-decoration: none;
+}
+
 
 .div-projects {
   padding-left: 100px;

@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import Tara from "../images/tara.png";
 import Linkedin from "../images/linkedin.png";
-import Devpost from "../images/devpost.png";
+import Mail from "../images/mail.png";
 import Github from "../images/github.png";
 import Typewriter from "typewriter-effect";
 import "../styles/Projects.css";

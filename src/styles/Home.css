@@ -3,6 +3,7 @@
 .div-intro {
   justify-content: "center"; 
    display: flex; 
+   margin-top: 30px; 
 }
 
 .intro {
