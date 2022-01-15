@@ -41,10 +41,12 @@ function Projects() {
         <b className="summary-quicktab">🗓️ Timeline:</b> September - December
         2021
       </div>
+      <div className="paragraph">
       <br></br>
       <b className="summary-quicktab">👥 Team:</b> Ena Manjgo and Tara
       Rao-Pandit
       <br></br>
+      </div>
       <div className="subheading">The Challenge</div>
       <div className="paragraph">
         Finding new music is a task with more resistance than necessary.
