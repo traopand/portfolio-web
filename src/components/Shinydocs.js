@@ -32,7 +32,7 @@ function Projects() {
       <div className="paragraph">
         <b className="summary-quicktab">💼 Role(s):</b> Front-end Developer
         <br></br>
-        <b className="summary-quicktab">🛠️ Languages and Tools:</b> React JS,
+        <b className="summary-quicktab">🛠️ Languages and Tools:</b> React,
         TypeScript
         <br></br>
         <b className="summary-quicktab">🗓️ Timeline:</b> September - December
