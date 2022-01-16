@@ -120,8 +120,7 @@
 
 @media screen and (max-width: 991px) {
   .footer {
-    z-index: -1;
-    padding-bottom: 30px !important;
+        padding-bottom: 30px !important;
   }
 
   .coded-by2 {

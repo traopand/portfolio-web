@@ -16,7 +16,7 @@ function Navigation() {
               Projects
             </Nav.Link>
             <Nav.Link
-              href="https://drive.google.com/file/d/1MqK54gZvXfKduEWkajfdpFXkfLdnoI8X/view?usp=sharing"
+              href="https://drive.google.com/file/d/1X8jRSrh5T8dluFtYZrDE92XO3rJCUMFe/view?usp=sharing"
               className="nav-text"
               target="_blank"
             >

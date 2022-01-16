@@ -49,14 +49,14 @@ function Projects() {
 
       <div className="paragraph">
         From January to April 2021 I completed an{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>
           internship{" "}
         </span>{" "}
         at{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>Quicktab</span>,
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>Quicktab</span>,
         a start-up company developing an application that allows restaurants to
         facilitate{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>
           contactless dining
         </span>
         . Users can virtually join a table once seated in the restaurant and
@@ -65,7 +65,7 @@ function Projects() {
         that allows servers to see what tables have ordered and send these
         orders to the kitchen as well as view billing information. My main
         projects included working on coding the{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>redesign </span>{" "}
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>redesign </span>{" "}
         for my company’s website and further developing their restaurant
         platform. I worked with react, CSS, javascript, and firebase.
       </div>
@@ -75,33 +75,33 @@ function Projects() {
       <div className="subheading">Challenges I faced </div>
       <div className="paragraph">
         Given that I had{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>
           no prior experience{" "}
         </span>{" "}
         working with{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>React</span>,{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>Javascript</span>
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>React</span>,{" "}
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>Javascript</span>
         , or{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>Firebase </span>{" "}
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>Firebase </span>{" "}
         before starting my work term it was a huge challenge for me to develop
         these skills while implementing them in my tasks. However, I was able to
         demonstrate strong{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>
           self-management{" "}
         </span>{" "}
         and{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>
           technical agility{" "}
         </span>{" "}
         as I picked up the required skills and was able to successfully complete
         my projects on time. Additionally, with the work term being{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>remote </span> I
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>remote </span> I
         had to become more{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>
           resourceful{" "}
         </span>{" "}
         and{" "}
-        <span style={{ color: "#ED7B82", fontWeight: "bold" }}>
+        <span style={{ color: "#77769D", fontWeight: "bold" }}>
           independent{" "}
         </span>{" "}
         in solving my technical problems.
