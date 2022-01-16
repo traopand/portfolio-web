@@ -151,7 +151,7 @@ function Projects() {
         </span>{" "}
         to work{" "}
         <span style={{ color: "#E38B60", fontWeight: "bold" }}>
-          collaboratively{" "}
+          collaboratively
         </span>{" "}
         , split up our code and finally put it all together. Given our limited
         experience working with the mentioned languages,
