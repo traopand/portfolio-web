@@ -126,6 +126,7 @@ function Projects() {
             interesting part of the song
           </li>
           <li>A card-swiping interface to speed up the browsing process</li>
+          <li style={{fontWeight: "bold"}}>*New* A trending tab to swipe through popular songs</li>
         </ol>
       </div>
       <div className="subheading">Information Architecture</div>
