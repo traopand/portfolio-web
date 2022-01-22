@@ -176,7 +176,7 @@ function Projects() {
           <Col>Previous Project</Col>
         </a>
 
-        <a href="/quicktab" className="next">
+        <a href="/shinydocs" className="next">
           <Col>Next Project</Col>
         </a>
       </Row>
