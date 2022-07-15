@@ -48,7 +48,7 @@ function About() {
             I'm currently looking for
             <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
               {" "}
-              Summer 2022
+              Winter 2023
             </span>{" "}
             internship opportunities to expand my skills and am interested in{" "}
             <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
