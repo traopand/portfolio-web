@@ -6,7 +6,6 @@ import Tara from "../images/tara.png";
 import Linkedin from "../images/linkedin.png";
 import Devpost from "../images/devpost.png";
 import Github from "../images/github.png";
-import Typewriter from "typewriter-effect";
 import About from "./About";
 import RecentProjects from "./RecentProjects";
 

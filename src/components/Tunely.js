@@ -2,7 +2,6 @@ import React from "react";
 import Alert from "react-bootstrap/Alert";
 import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
-import Typewriter from "typewriter-effect";
 import Rectangle from "../images/rectangle.png";
 import Tunely from "../images/tunely.png";
 import hiFi from "../images/TunelyHi-fi.png";
@@ -19,14 +18,7 @@ function Projects() {
       <Row>
         <div className="projectheader">Tunely:</div>
         <div className="slogan">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Find and share new music picks")
-                .callFunction(() => {})
-                .start();
-            }}
-          />
+        Find and share new music picks
         </div>
       </Row>
       <Row style={{ justifyContent: "center" }}>

@@ -2,7 +2,6 @@ import React from "react";
 import Alert from "react-bootstrap/Alert";
 import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
-import Typewriter from "typewriter-effect";
 import Rectangle from "../images/rectangle.png";
 import Habbit from "../images/habbit.png";
 import ReactPlayer from "react-player";
@@ -14,14 +13,7 @@ function Projects() {
       <Row>
         <div className="projectheader">Habbit:</div>
         <div className="slogan">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Explore the realm of financial planning!")
-                .callFunction(() => {})
-                .start();
-            }}
-          />
+        Explore the realm of financial planning!
         </div>
       </Row>
 

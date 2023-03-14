@@ -7,7 +7,6 @@ import Tara from "../images/tara.JPG";
 import Linkedin from "../images/linkedin.png";
 import Devpost from "../images/devpost.png";
 import Github from "../images/github.png";
-import Typewriter from "typewriter-effect";
 import Concert from "../images/concert.png";
 import Piano from "../images/piano.png";
 import Dance from "../images/dance.png";

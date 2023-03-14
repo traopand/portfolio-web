@@ -6,7 +6,6 @@ import Tara from "../images/tara.png";
 import Linkedin from "../images/linkedin.png";
 import mail from "../images/mail.png";
 import Github from "../images/github.png";
-import Typewriter from "typewriter-effect";
 import "../styles/Projects.css";
 import Rectangle from "../images/rectangle.png";
 import Shinydocs from "../images/shinydocs.png";

@@ -2,7 +2,6 @@ import React from "react";
 import Alert from "react-bootstrap/Alert";
 import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
-import Typewriter from "typewriter-effect";
 import Rectangle from "../images/rectangle.png";
 import Rally from "../images/rally.png";
 import Wireframe from "../images/rallyWireframe.png";
@@ -15,14 +14,7 @@ function Projects() {
       <Row>
         <div className="projectheader">Rally:</div>
         <div className="slogan">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("For those who have something to fight for")
-                .callFunction(() => {})
-                .start();
-            }}
-          />
+        For those who have something to fight for
         </div>
       </Row>
 

@@ -2,7 +2,6 @@ import React from "react";
 import Alert from "react-bootstrap/Alert";
 import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
-import Typewriter from "typewriter-effect";
 import Rectangle from "../images/rectangle.png";
 import Shinydocs from "../images/shinydocsBanner.png";
 import Treeview from "../images/Treeview.png";
@@ -13,16 +12,9 @@ function Projects() {
   return (
     <div className="div-projects">
       <Row>
-        <div className="projectheader">Shinydocs:</div>
+        <div className="projectheader">Shinydocs: </div>
         <div className="slogan">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Front-end Software Developer")
-                .callFunction(() => {})
-                .start();
-            }}
-          />
+        Front-end Software Developer
         </div>
       </Row>
       <Row style={{ justifyContent: "center" }}>

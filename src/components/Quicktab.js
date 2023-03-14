@@ -3,7 +3,6 @@ import Alert from "react-bootstrap/Alert";
 import Accordion from "react-bootstrap/Accordion";
 import { Card, Button, Container, Row, Col, Image } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
-import Typewriter from "typewriter-effect";
 import Rectangle from "../images/rectangle.png";
 import Quicktab from "../images/quicktab.png";
 import Quicktab1 from "../images/quicktab1.png";
@@ -21,14 +20,7 @@ function Projects() {
       <Row>
         <div className="projectheader">Quicktab:</div>
         <div className="slogan">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("My experience as a software developer intern")
-                .callFunction(() => {})
-                .start();
-            }}
-          />
+        My experience as a software developer intern
         </div>
       </Row>
 

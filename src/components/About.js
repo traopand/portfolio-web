@@ -6,7 +6,6 @@ import Tara from "../images/tara-drawing.png";
 import Linkedin from "../images/linkedin.png";
 import Mail from "../images/mail.png";
 import Github from "../images/github.png";
-import Typewriter from "typewriter-effect";
 import Footer from "./Footer"; 
 import "../styles/Home.css";
 
@@ -19,15 +18,7 @@ function About() {
       <Row className="intro">
         <Col className="center">
           <div className="header-name">
-            {" "}
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("Hi! I'm Tara,")
-                  .callFunction(() => {})
-                  .start();
-              }}
-            />
+          Hi! I'm Tara,
           </div>
           <div className="subtext">
             a second-year{" "}
