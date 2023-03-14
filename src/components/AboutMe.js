@@ -81,7 +81,7 @@ function About() {
         </span> as a <span style={{ color: "#8FB77D", fontWeight: "bold" }}>
             {" "}UI-focused Software Developer{" "}
         </span> at
-            Shinydocs and am looking for Summer 2022 internships. I am always
+            Shinydocs and am looking for Fall 2023 internships. I am always
             looking for opportunities to challenge myself and further expand on
             my existing knowledge; feel free to reach out to me at any time!
             <br />
