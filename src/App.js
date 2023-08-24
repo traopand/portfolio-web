@@ -7,7 +7,7 @@ import "./App.css";
 
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
+import Projects from "./components/RecentProjects";
 import SplitPeas from "./components/SplitPeas";
 import Quicktab from "./components/Quicktab";
 import Rally from "./components/Rally";
