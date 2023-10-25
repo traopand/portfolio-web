@@ -42,10 +42,10 @@ class App extends Component {
           </Switch>
           <Footer />
           <Row className="coded-by">
-                Made with {`<3`} by Tara Rao-Pandit{` :)`}
-              </Row>
-              <br/>
-  </div>
+            Made with {`<3`} by Tara Rao-Pandit{` :)`}
+          </Row>
+          <br />
+        </div>
       </BrowserRouter>
     );
   }

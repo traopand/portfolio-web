@@ -15,13 +15,13 @@ function Home() {
     <div>
       <About />
       <div className="div-project-grid">
-      <div className="take-look" >
-        <a href="#projects" className="take-look">
-        Take a look at what I've been working on ⬇
-        </a>
+        <div className="take-look">
+          <a href="#projects" className="take-look">
+            Take a look at what I've been working on ⬇
+          </a>
+        </div>
+        <Projects />
       </div>
-  <Projects/>
-    </div>
     </div>
   );
 }
